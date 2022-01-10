@@ -324,7 +324,7 @@ ul.external-link .dropdown-nav a {
     display: none;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
     .topbar .links {
         display: grid;
         grid-template-columns: 1fr 200px;
@@ -670,7 +670,7 @@ ul.thumbs .label p{
     color: var(--white-color);
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
     section.intro {
         padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
     }
@@ -810,7 +810,7 @@ section.rating {
     padding-bottom: 30px;
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
     
     section.rating {
         padding: 2.706rem calc((100vw - 1400px) / 2) 3rem;
@@ -976,7 +976,7 @@ ul.partners-list {
 li.partner-logo {
     margin: auto;
 }
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
 
 section.partners {
     padding: 4rem calc((100vw - 1400px) / 2) 3rem;
@@ -1635,7 +1635,7 @@ section.impact-section {
     display: grid;
 }
 
-@media screen and (min-width: 1024){
+@media screen and (min-width: 1024px){
     section.section-container.caregiver-features {
         padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
         display: grid;
@@ -1804,7 +1804,7 @@ section.section-container.none-services {
     border-radius: 10px;
 }
 
-@media screen and (min-width: 1024){
+@media screen and (min-width: 1024px){
     section.section-container.services {
         padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
     }
@@ -2242,7 +2242,7 @@ ul.video-categories-controls {
     height: 15rem;
     border-radius: var(--border-radius);
 }
-@media screen and (min-width: 1024){
+@media screen and (min-width: 1024px){
 section.section-container.tutorials {
     padding: 6.706rem calc((100vw - 1400px) / 2) 1rem;
 }
