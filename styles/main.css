@@ -539,9 +539,9 @@ button.button.request-button {
         width: min-content;
     }
     .devices-container {
-        grid-template-columns: 100px 0px 700px;
+        grid-template-columns: 100px 0px 840px;
         display: grid;
-        width: 800px;
+        width: 940px;
         height: 460px;
         margin: auto;
     }
@@ -552,9 +552,9 @@ button.button.request-button {
         position: relative;
         flex-grow: 0;
     }
-    .device-one img {
+    .device-one img, .device-one .symbian {
         width: 150px;
-        bottom: 0px;
+        bottom: -3px;
         position: absolute;
     }
     .device-two {
@@ -580,7 +580,7 @@ button.button.request-button {
     }
 
     .device-three img, .device-three .laptop {
-        width: 700px;
+        width: 840px;
         position: absolute;
         bottom: -3px;
     }
@@ -598,21 +598,21 @@ button.button.request-button {
         width: 90%;
     }
     .devices-container {
-        grid-template-columns: 80px 0px 599px;
-        width: 644px;
+        grid-template-columns: 80px 0px 630px;
+        width: 711px;
         height: 400px;
     }
     .device-one {
         height: 400px;
     }
-    .device-one img {
-        width: 140px;
+    .device-one img, .device-one .symbian {
+        width: 120px;
     }
     .device-two {
         height: 400px;
     }
     .device-two img, .device-two .android {
-        width: 170px;
+        width: 150px;
         bottom: -3px;
     }
     .device-three {
@@ -620,7 +620,7 @@ button.button.request-button {
     }
 
     .device-three img, .device-three .laptop {
-        width: 600px;
+        width: 630px;
         bottom: -3px;
     }
 }
@@ -1354,7 +1354,7 @@ li.social-link {
     display: block;
     position: relative;
 }
-.afya-pap .device-one img {
+.afya-pap .device-one img, .afya-pap .device-one .symbian {
     width: 123.9px;
     position: absolute;
     bottom: 0px;
