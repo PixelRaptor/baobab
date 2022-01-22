@@ -501,7 +501,7 @@ button.button.request-button {
 	display: grid;
 	width: 100%;
 }
-.device-two img{
+.device-two img, .device-two .android{
     width: 204.44px;
     margin: auto;
 }
@@ -510,7 +510,7 @@ button.button.request-button {
     display: grid;
     width: 100%;
 }
-.device-three img {
+.device-three img, .device-three .laptop {
     width: 100%;
     margin: auto;
 }
@@ -564,9 +564,9 @@ button.button.request-button {
         position: relative;
         flex-grow: 0;
     }
-    .device-two img {
-        width: 230px;
-        bottom: -15px;
+    .device-two img,  .device-two .android {
+        width: 200px;
+        bottom: -3px;
         position: absolute;
     }
 
@@ -579,7 +579,7 @@ button.button.request-button {
         flex-grow: 0;
     }
 
-    .device-three img {
+    .device-three img, .device-three .laptop {
         width: 700px;
         position: absolute;
         bottom: -3px;
@@ -611,15 +611,15 @@ button.button.request-button {
     .device-two {
         height: 400px;
     }
-    .device-two img {
-        width: 200px;
-        bottom: -13px;
+    .device-two img, .device-two .android {
+        width: 170px;
+        bottom: -3px;
     }
     .device-three {
         height: 400px;
     }
 
-    .device-three img {
+    .device-three img, .device-three .laptop {
         width: 600px;
         bottom: -3px;
     }
@@ -1650,7 +1650,7 @@ section.impact-section {
         display: block;
     }
     
-    .caregiver-page .device-three img{
+    .caregiver-page .device-three img, .caregiver-page .device-three .laptop{
         position:relative;
         margin: auto;
     }
