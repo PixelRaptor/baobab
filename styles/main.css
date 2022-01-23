@@ -554,7 +554,7 @@ button.button.request-button {
     }
     .device-one img, .device-one .symbian {
         width: 150px;
-        bottom: -3px;
+        bottom: 0px;
         position: absolute;
     }
     .device-two {
@@ -566,7 +566,7 @@ button.button.request-button {
     }
     .device-two img,  .device-two .android {
         width: 200px;
-        bottom: -3px;
+        bottom: 2px;
         position: absolute;
     }
 
@@ -582,7 +582,7 @@ button.button.request-button {
     .device-three img, .device-three .laptop {
         width: 840px;
         position: absolute;
-        bottom: -3px;
+        bottom: 2px;
     }
     /* .device-three.show img{
         width: inherit;
