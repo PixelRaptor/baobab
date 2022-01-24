@@ -128,6 +128,20 @@ ul{
 .container {
     width: 750px;
 }} */
+.dots-svg {
+    position: absolute;
+    width: 25%;
+    left: 3%;
+    top: 9%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.waves-svg {
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    width: 20%;
+}
 .menu svg {
     width: 30px;
     /* border: none; */
@@ -701,6 +715,7 @@ section.afya-pap {
 }
 .afya-pap .screen img {
     margin: auto;
+    width: 220px;
 }
 .screens-container a {
     text-align: center;
@@ -756,13 +771,18 @@ section.afya-pap {
         height: 540px;
     }
     .afya-pap .screen img {
-        height: 90%;
+        /* height: 90%;     */
+        height: 470px;
+        width: unset;
     }
     .screens-container a {
         text-align: left;
     }
 
 @media screen and (max-width: 1024px) {
+    .afya-pap .screen img {
+        height: 390px;
+    }
 
     section.afya-pap {
         padding: 4.706rem 0.941rem 1rem;
@@ -1164,11 +1184,14 @@ section.playstore {
     background-image: url(../images/playstore-texture.svg);
 	position: relative;
 }
+.playstore-text {
+    display: grid;
+}
 .playstore-text p{
 	line-height: 3rem;
     color: var(--navy-color);
 }
-.playstore button.button.playstore-button {
+.playstore button.button.playstore-button, .playstore button.button.request-button {
     margin: 65px auto 50px;
 }
 .playstore-screen {
@@ -1199,24 +1222,30 @@ section.playstore {
     section.playstore p {
         text-align: left;
     }
-    .playstore  button.button.playstore-button {
+    .playstore button.button.playstore-button{
         margin: 70px 0px 50px;
         width: min-content; 
+    }
+    .playstore button.button.request-button {
+        margin: 70px 0px 50px;
     }
     .playstore-screen img {
         width: 269px;
     }
-
+    .playstore-screen.caregiver-scren img {
+        width: 609px;
+    }
     .playstore-overlay-background {
         display: none;
     }
 
 @media screen and (max-width: 1024px){
-
-.playstore button.button.playstore-button {
-    margin: 27px 0px 50px;
-}
-
+    .playstore button.button.playstore-button, .playstore button.button.request-button {
+        margin: 27px 0px 50px;
+    }
+    .playstore-screen.caregiver-scren img {
+        width: 269px;
+    }
 section.playstore {
     padding: 2rem 0.941rem 0rem;
     grid-template-columns: 2fr 1fr;
@@ -1368,6 +1397,7 @@ li.social-link {
 }
 .afya-pap-features .screen {
     display: grid;
+    position: relative;
 }
 .help-link.browse path{
     stroke: var(--grey-color-2);
@@ -1529,7 +1559,7 @@ section.impact-section {
         grid-template-rows: repeat(5, min-content);
     }
     .afya-pap-features .screen img {
-        width: 70%;
+        width: 40%;
     }
     section.section-container.app-community {
         display: grid;
@@ -1634,6 +1664,8 @@ section.impact-section {
 }
 .caregiver-features .screen {
     display: grid;
+    position: relative;
+    height: 80%;
 }
 
 @media screen and (min-width: 1024px){
