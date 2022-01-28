@@ -1498,6 +1498,7 @@ li.app-info-thumb.green {
     height: calc(100vw);
     box-shadow: -10px 10px 20px 1px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    background-position: center;
 }
 
 section.impact-section {
