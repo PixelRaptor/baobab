@@ -2214,6 +2214,38 @@ input#phone {
 }
 
 
+
+
+
+
+@media (max-width: 1024px) {
+button.close-popup-button {
+    top: 1rem;
+    right: 1rem;
+}
+
+.qr-content {
+    display: none;
+}
+
+.show .download-popup {
+    padding: 16px;
+    height: max-content;
+    width: calc(100% - 32px);
+    display: block;
+}
+.download-form {
+    padding-top: 10px;
+}
+.download-form p {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 20px 0px 30px;
+}
+.download-popup button.standard-button {
+    margin: 40px 0px 20px;
+}
+}
 /* END POPUP PAGE */
 
 
