@@ -1449,7 +1449,7 @@ li.app-info-thumb.green {
 
 .app-info-thumb svg {
     height: 30px;
-    width: max-content;
+    width: auto;
 }
 
 .app-info-thumb h3 {
