@@ -342,13 +342,13 @@ ul.external-link .dropdown-nav a {
 @media screen and (min-width: 1024px) {
     .topbar .links {
         display: grid;
-        grid-template-columns: 1fr 200px;
+        grid-template-columns: 1fr 180px;
     }
     .topbar {
-        padding: 0px calc((100vw - 1400px) / 2);
+        padding: 0px calc((100vw - 985px) / 2);
         height: 91px;
         display: grid;
-        grid-template-columns: 250px 1fr;
+        grid-template-columns: 200px 1fr;
     }
     .topbar .logo-container svg {
         left: 0px;
@@ -357,11 +357,11 @@ ul.external-link .dropdown-nav a {
     }
     ul.nav-links {
         display: grid;
-        grid-template-columns: repeat(5, 100px) 1fr;
-        grid-gap: 40px;
+        grid-template-columns: repeat(4, 100px) 1fr;
+        grid-gap: 20px;
+        padding-left: 20px;
         margin: auto 0px;
         padding-bottom: 5px;
-        padding-left: 135px;
     }
     .topbar .links a {
         font-size: 17px;
@@ -530,7 +530,7 @@ button.button.request-button {
 }
 @media screen and (min-width: 600px) {
     section.header {
-        padding: 0px calc((100vw - 1400px) / 2);
+        padding: 0px calc((100vw - 985px) / 2);
     }
     .call-to-action, .header-text {
         padding-top: 100px;
@@ -687,7 +687,7 @@ ul.thumbs .label p{
 
 @media screen and (min-width: 1024px) {
     section.intro {
-        padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
     }
     section.intro p {
         width: 60%;
@@ -730,7 +730,7 @@ section.afya-pap {
 }
 @media screen and (min-width: 600px) {
     section.afya-pap {
-        padding: 4.706rem calc((100vw - 1400px) / 2) 1rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 1rem;
     }
     section.afya-pap .bio {
         height: min-content;
@@ -834,7 +834,7 @@ section.rating {
 @media screen and (min-width: 1024px) {
     
     section.rating {
-        padding: 2.706rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 2.706rem calc((100vw - 985px) / 2) 3rem;
     }
     .rating p {
         padding: 25px 0px 60px;
@@ -915,7 +915,7 @@ ul.awards-list {
 }
 
 li.award-item {
-    height: 298px;
+    height: 230px;
     background: linear-gradient(118.03deg, rgba(21, 72, 107, 0.05) 0%, rgba(242, 153, 74, 0.05) 101.55%);
     border-radius: 10px;
     display: grid;
@@ -936,7 +936,7 @@ li.award-item {
 
 
 .award-item svg {
-    height: 95.36px;
+    height: 60px;
     margin: auto;
 }
 
@@ -958,10 +958,11 @@ li.award-item {
 
 @media screen and (min-width: 600px){
     section.awards {
-        padding: 6.706rem calc((100vw - 1400px) / 2) 5rem;
+        padding: 6.706rem calc((100vw - 985px) / 2) 5rem;
     }
     ul.awards-list {
         grid-template-columns: repeat(4, 1fr);
+        grid-gap: 1rem;
     }
     .award-item p {
         overflow: hidden;
@@ -1000,7 +1001,7 @@ li.partner-logo {
 @media screen and (min-width: 1024px) {
 
 section.partners {
-    padding: 4rem calc((100vw - 1400px) / 2) 3rem;
+    padding: 4rem calc((100vw - 985px) / 2) 3rem;
 }
 
 .one-four-grid {
@@ -1117,7 +1118,7 @@ li.info-thumb a {
 }
 @media screen and (min-width: 600px){
     section.info {
-        padding: 5rem calc((100vw - 1400px) / 2) 5rem;
+        padding: 5rem calc((100vw - 985px) / 2) 5rem;
     }
     ul.info-thumbs-list {
         display: grid;
@@ -1155,7 +1156,7 @@ section.featured {
 }
 @media screen and (min-width: 600px){
     section.featured {
-        padding: 3rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 3rem calc((100vw - 985px) / 2) 3rem;
     }
     .featured-list {
         display: grid;
@@ -1212,7 +1213,7 @@ section.playstore {
 }
 @media screen and (min-width: 600px){
     section.playstore {
-        padding: 3rem calc((100vw - 1400px) / 2) 0rem;
+        padding: 3rem calc((100vw - 985px) / 2) 0rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
@@ -1229,8 +1230,8 @@ section.playstore {
     .playstore button.button.request-button {
         margin: 70px 0px 50px;
     }
-    .playstore-screen img {
-        width: 269px;
+    .playstore-screen img {    
+        width: 302px;
     }
     .playstore-screen.caregiver-scren img {
         width: 609px;
@@ -1315,7 +1316,7 @@ li.social-link {
 }
 @media screen and (min-width: 600px) {
     footer {
-        padding: 3rem calc((100vw - 1400px) / 2) 2rem;
+        padding: 3rem calc((100vw - 985px) / 2) 2rem;
     }
     .footer-content {
         display: grid;
@@ -1547,7 +1548,7 @@ section.impact-section {
         padding: 0px;
     }
     section.section-container.afya-pap-features {
-        padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 40px;
@@ -1565,12 +1566,12 @@ section.impact-section {
     section.section-container.app-community {
         display: grid;
         grid-template-columns: min-content 1fr;
-        padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
-        grid-gap: 40px;
+        padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
+        grid-gap: 20px;
     }
     .app-community-image {
-        width: 674px;
-        height: 674px;
+        width: 564px;
+        height: 564px;
         background-size: cover;
     }
     .app-community-text {
@@ -1580,11 +1581,11 @@ section.impact-section {
     section.impact-section {
         display: grid;
         grid-template-columns: 1fr min-content;
-        padding: 4.706rem calc((100vw - 1400px) / 2) 6rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 6rem;
         grid-gap: 40px;
     }
     .impact-video {
-        width: 674px;
+        width: 534px;
         height: 434px;
         order: 1;
     }
@@ -1671,7 +1672,7 @@ section.impact-section {
 
 @media screen and (min-width: 1024px){
     section.section-container.caregiver-features {
-        padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
         display: grid;
         grid-template-columns: 1.5fr 1fr;
         grid-gap: 40px;
@@ -1725,7 +1726,7 @@ button.standard-button {
 
 @media screen and (min-width: 600px){
     section.section-container.devices {
-        padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
     }
     
     .section-device {
@@ -1819,11 +1820,17 @@ ul.health-conditions {
 .health-conditions h4 {
     line-height: 2.5;
 }
-.grid-float-abstract{
+.dot-grid.grid-float-abstract {
     position: absolute;
-    left: 0px;
+    left: -100px;
+    top: -27%;
     width: 200px;
-
+}
+.wave-grid.grid-float-abstract {
+    position: absolute;
+    right: -20px;
+    bottom: -27%;
+    width: 200px;
 }
 ul.conditions-not-covered {
     list-style: disc inside url(../images/bullet-red.svg);
@@ -1840,7 +1847,7 @@ section.section-container.none-services {
 
 @media screen and (min-width: 1024px){
     section.section-container.services {
-        padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
     }
     li.service {
         display: grid;
@@ -1885,7 +1892,7 @@ section.section-container.none-services {
     }
     
     section.section-container.none-services {
-        padding: 0rem calc((100vw - 1400px) / 2) 5rem;
+        padding: 0rem calc((100vw - 985px) / 2) 5rem;
     }
 
     /* ul.services-list:nth-child(even) .image  {
@@ -1946,14 +1953,14 @@ li.team-member {
     display: grid;
 }
 .team-member .bio {
-    padding-left: 16px;
+    padding-left: 10px;
 }
 
 .team-member .label {
     background: #FFFFFF;
     border-radius: 2px;
     display: grid;
-    grid-template-columns: 71px 1px 1fr;
+    grid-template-columns: 41px 1px 1fr;
     padding: 0.8rem 1rem 0.8rem 0;
 }
 
@@ -1992,12 +1999,12 @@ li.team-member {
 
 @media screen and (min-width: 600px){
     section.section-container.team {
-        padding: 4.706rem calc((100vw - 1400px) / 2) 3rem;
+        padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
     }
     ul.team-list {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 40px;
+        grid-gap: 20px;
     }
 
 li.team-member {
@@ -2071,8 +2078,8 @@ h2.lets-connect {
 .contact-details-grid {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
-    grid-row-gap: 40px;
-    grid-column-gap: 140px;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
 }
 
 }
@@ -2310,7 +2317,7 @@ ul.video-categories-controls {
 }
 @media screen and (min-width: 1024px){
 section.section-container.tutorials {
-    padding: 6.706rem calc((100vw - 1400px) / 2) 1rem;
+    padding: 6.706rem calc((100vw - 985px) / 2) 1rem;
 }
 .tutorial-video-container {
     background: linear-gradient(118.03deg, rgba(21, 72, 107, 0.05) 0%, rgba(242, 153, 74, 0.05) 101.55%);
