@@ -13,3 +13,4 @@ function showSignup(){
 function showDownload(){
     document.getElementById('download').classList.toggle('show')
 }
+

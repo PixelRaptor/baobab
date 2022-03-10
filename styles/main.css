@@ -2325,8 +2325,8 @@ section.section-container.tutorials {
     border-radius: var(--border-radius);
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 500px;
-    margin-bottom: 100px;
+    min-height: 500px;
+    margin-bottom: 50px;
 }
 
 .tutorial-video-side iframe {
@@ -2336,7 +2336,7 @@ section.section-container.tutorials {
     height: 100%;
 }
 .tutorial-text {
-    padding: 50px;
+    padding: 40px 30px;
     box-sizing: border-box;
 }
 .tutorial-text h3 {
