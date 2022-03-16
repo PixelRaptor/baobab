@@ -1154,6 +1154,18 @@ section.featured {
     height: 37px;
     margin:auto;
 }
+@media screen and (max-width: 768px){
+    .featured-heading{
+        text-align: center;
+    }
+    .featured-list {
+        padding-top: 2rem;
+    }
+    .featured-list a {
+        margin: auto;
+        width: min-content;
+    }
+}
 @media screen and (min-width: 600px){
     section.featured {
         padding: 3rem calc((100vw - 985px) / 2) 3rem;
@@ -2232,7 +2244,7 @@ button.close-popup-button {
 }
 
 .qr-content {
-    display: none;
+    /* display: none; */
 }
 
 .show .download-popup {
@@ -2252,6 +2264,14 @@ button.close-popup-button {
 .download-popup button.standard-button {
     margin: 40px 0px 20px;
 }
+    .qr-code {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px){
+    .download-popup button.standard-button {
+        margin: 40px auto 20px;
+    }
 }
 /* END POPUP PAGE */
 
