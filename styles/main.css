@@ -2150,6 +2150,7 @@ h2.lets-connect {
     left: 0px;
     z-index: 9;
     opacity: 1;
+    backdrop-filter: blur(2px);
 }
 #download.show .toggle-dropdown-overlay{
  display: block
