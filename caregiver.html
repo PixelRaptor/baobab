@@ -1,125 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- OTHER META TAGS -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<head>
+		<!-- OTHER META TAGS -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- WEBSITE TITLE -->
-    <title>Baobab Circle</title>
+		<!-- WEBSITE TITLE -->
+		<title>Baobab Circle</title>
 
-    <!-- WEBSITE DESCRIPTION -->
-    <meta name="description" content="Delivering health education into your hands" />
-    <meta name="keywords" content="Health education" />
+		<!-- WEBSITE DESCRIPTION -->
+		<meta
+			name="description"
+			content="Delivering health education into your hands"
+		/>
+		<meta name="keywords" content="Health education" />
 
-    <!-- FAVICON -->
-    <link rel="shortcut icon" type="image/jpg" href="/path/to/your/favicon/" />
+		<!-- FAVICON -->
+		<link
+			rel="shortcut icon"
+			type="image/jpg"
+			href="/path/to/your/favicon/"
+		/>
 
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- *currently set to "Roboto". Feel free to change it to whatever you like* -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"/>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <!-- CSS STYLE LINK -->
-    <link rel="stylesheet" href="./styles/main.css" />
-  </head>
-  <body>
-    <nav class="topbar">
-		<a  href="./index.html" class="logo-container">
-		  <svg width="244" height="21" viewBox="0 0 244 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-			  <path fill-rule="evenodd" clip-rule="evenodd" d="M137.734 10.4542C137.734 4.52404 142.163 0.473633 147.864 0.473633C151.77 0.473633 154.174 2.49936 155.621 4.81388L152.727 6.28933C151.801 4.69836 149.947 3.48335 147.864 3.48335C144.043 3.48335 141.207 6.40485 141.207 10.4542C141.207 14.5036 144.042 17.4272 147.864 17.4272C148.848 17.4216 149.814 17.1598 150.667 16.6674C151.52 16.175 152.23 15.4691 152.727 14.6191L155.621 16.0945C154.146 18.409 151.771 20.4337 147.864 20.4337C142.163 20.4337 137.734 16.3833 137.734 10.4542ZM160.656 20.0861H164.044V0.791826H160.656V20.0861ZM181.785 6.83751C181.785 4.9861 180.396 3.77109 178.485 3.77109H173.854V9.90393H178.485C180.396 9.90393 181.785 8.68996 181.785 6.83751ZM181.496 20.0861L177.211 12.8842H173.854V20.0861H170.468V0.791826H178.949C182.769 0.791826 185.258 3.28067 185.258 6.83751C185.258 10.2799 183 12.1313 180.685 12.5083L185.402 20.0861H181.496ZM190.091 10.4542C190.091 4.52404 194.52 0.473633 200.221 0.473633C204.128 0.473633 206.532 2.49936 207.978 4.81388L205.085 6.28933C204.158 4.69836 202.305 3.48335 200.221 3.48335C196.4 3.48335 193.565 6.40485 193.565 10.4542C193.565 14.5036 196.4 17.4272 200.221 17.4272C201.205 17.4218 202.172 17.16 203.025 16.6676C203.878 16.1753 204.588 15.4692 205.085 14.6191L207.978 16.0945C206.502 18.409 204.128 20.4337 200.221 20.4337C194.52 20.4337 190.091 16.3833 190.091 10.4542ZM213.015 20.0861V0.791826H216.401V17.1069H224.911V20.0861H213.015ZM230.294 20.0861V0.791826H243.521V3.77109H233.681V8.77607H243.319V11.7553H233.68V17.1069H243.521V20.0861H230.294Z" fill="#15486B"/>
-			  <path fill-rule="evenodd" clip-rule="evenodd" d="M11.9202 14.1453C11.9202 13.1875 11.2239 12.4052 10.0068 12.4052H4.98924V15.8832H10.0068C11.1956 15.8832 11.9202 15.187 11.9202 14.1442V14.1453ZM11.5442 6.54956C11.5442 5.62228 10.8469 4.95544 9.83251 4.95544H4.98924V8.17308H9.83146C10.8469 8.17308 11.5432 7.50624 11.5432 6.54956H11.5442ZM0 20.0859V0.752764H10.9635C14.7913 0.752764 16.6185 3.24581 16.6185 5.68109C16.6185 8.08592 15.1399 9.70945 13.3116 10.1148C15.371 10.4351 16.9955 12.4052 16.9955 14.8405C16.9955 17.6527 15.1105 20.087 11.3111 20.087H0V20.0859ZM30.3954 5.68109L27.9307 12.9554H32.8601L30.3954 5.68004V5.68109ZM35.1799 20.0859L34.2242 17.303H26.596L25.6393 20.0859H19.9843L27.2639 0.752764H33.5269L40.8359 20.0859H35.1809H35.1799ZM58.2673 10.434C58.2673 7.27416 56.209 4.84098 53.0187 4.84098C49.7989 4.84098 47.7396 7.27416 47.7396 10.434C47.7396 13.5645 49.7989 16.0282 53.0187 16.0282C56.208 16.0282 58.2673 13.5645 58.2673 10.434ZM42.6653 10.434C42.6653 4.55009 47.1011 0.43457 53.0187 0.43457C58.9341 0.43457 63.3416 4.55009 63.3416 10.434C63.3416 16.3191 58.9341 20.4346 53.0187 20.4346C47.1011 20.4346 42.6642 16.318 42.6642 10.434H42.6653ZM80.1061 14.1453C80.1061 13.1875 79.4099 12.4052 78.1927 12.4052H73.1751V15.8832H78.1927C79.3815 15.8832 80.1061 15.187 80.1061 14.1442V14.1453ZM79.7301 6.54956C79.7301 5.62228 79.0339 4.95544 78.0184 4.95544H73.1751V8.17308H78.0184C79.0339 8.17308 79.7301 7.50624 79.7301 6.54956ZM68.1859 20.0859V0.752764H79.1494C82.9783 0.752764 84.8055 3.24581 84.8055 5.68109C84.8055 8.08592 83.3259 9.70945 81.4976 10.1148C83.5569 10.4351 85.1815 12.4052 85.1815 14.8405C85.1815 17.6527 83.2964 20.087 79.497 20.087H68.187L68.1859 20.0859ZM98.5813 5.68109L96.1166 12.9554H101.047L98.5813 5.68004V5.68109ZM103.367 20.0859L102.411 17.303H94.7829L93.8252 20.0859H88.1702L95.4498 0.752764H101.714L109.023 20.0859H103.367ZM124.685 14.1453C124.685 13.1875 123.987 12.4052 122.77 12.4052H117.753V15.8832H122.77C123.959 15.8832 124.685 15.187 124.685 14.1442V14.1453ZM124.308 6.54956C124.308 5.62228 123.612 4.95544 122.596 4.95544H117.753V8.17308H122.596C123.612 8.17308 124.308 7.50624 124.308 6.54956ZM112.764 20.0859V0.752764H123.727C127.556 0.752764 129.383 3.24581 129.383 5.68109C129.383 8.08592 127.903 9.70945 126.075 10.1148C128.134 10.4351 129.759 12.4052 129.759 14.8405C129.759 17.6527 127.874 20.087 124.075 20.087H112.765L112.764 20.0859Z" fill="#F19B3E"/>
-		  </svg>          
-	  </a>
-      <div class="links" id="menu">
-        <ul class="nav-links">
-          <li class="route-link">
-            <a href="./index.html">Home</a>
-          </li>
-          <li class="route-link" id="products">
-            <a onclick="showProducts()">
-				Products
-				<span>
-					<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M12.1 4L7.5 8.6L2.9 4L1.5 5.4L7.5 11.4L13.5 5.4L12.1 4Z" fill="#053E5B"/>
-					</svg>
-				</span>
+		<!-- GOOGLE FONTS -->
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<!-- *currently set to "Roboto". Feel free to change it to whatever you like* -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- CSS STYLE LINK -->
+		<link rel="stylesheet" href="./styles/main.css" />
+	</head>
+	<body>
+		<nav class="topbar">
+			<a href="./index.html" class="logo-container">
+				<svg
+					width="244"
+					height="21"
+					viewBox="0 0 244 21"
+					fill="none"
+					xmlns="http://www.w3.org/2000/svg"
+				>
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M137.734 10.4542C137.734 4.52404 142.163 0.473633 147.864 0.473633C151.77 0.473633 154.174 2.49936 155.621 4.81388L152.727 6.28933C151.801 4.69836 149.947 3.48335 147.864 3.48335C144.043 3.48335 141.207 6.40485 141.207 10.4542C141.207 14.5036 144.042 17.4272 147.864 17.4272C148.848 17.4216 149.814 17.1598 150.667 16.6674C151.52 16.175 152.23 15.4691 152.727 14.6191L155.621 16.0945C154.146 18.409 151.771 20.4337 147.864 20.4337C142.163 20.4337 137.734 16.3833 137.734 10.4542ZM160.656 20.0861H164.044V0.791826H160.656V20.0861ZM181.785 6.83751C181.785 4.9861 180.396 3.77109 178.485 3.77109H173.854V9.90393H178.485C180.396 9.90393 181.785 8.68996 181.785 6.83751ZM181.496 20.0861L177.211 12.8842H173.854V20.0861H170.468V0.791826H178.949C182.769 0.791826 185.258 3.28067 185.258 6.83751C185.258 10.2799 183 12.1313 180.685 12.5083L185.402 20.0861H181.496ZM190.091 10.4542C190.091 4.52404 194.52 0.473633 200.221 0.473633C204.128 0.473633 206.532 2.49936 207.978 4.81388L205.085 6.28933C204.158 4.69836 202.305 3.48335 200.221 3.48335C196.4 3.48335 193.565 6.40485 193.565 10.4542C193.565 14.5036 196.4 17.4272 200.221 17.4272C201.205 17.4218 202.172 17.16 203.025 16.6676C203.878 16.1753 204.588 15.4692 205.085 14.6191L207.978 16.0945C206.502 18.409 204.128 20.4337 200.221 20.4337C194.52 20.4337 190.091 16.3833 190.091 10.4542ZM213.015 20.0861V0.791826H216.401V17.1069H224.911V20.0861H213.015ZM230.294 20.0861V0.791826H243.521V3.77109H233.681V8.77607H243.319V11.7553H233.68V17.1069H243.521V20.0861H230.294Z"
+						fill="#15486B"
+					/>
+					<path
+						fill-rule="evenodd"
+						clip-rule="evenodd"
+						d="M11.9202 14.1453C11.9202 13.1875 11.2239 12.4052 10.0068 12.4052H4.98924V15.8832H10.0068C11.1956 15.8832 11.9202 15.187 11.9202 14.1442V14.1453ZM11.5442 6.54956C11.5442 5.62228 10.8469 4.95544 9.83251 4.95544H4.98924V8.17308H9.83146C10.8469 8.17308 11.5432 7.50624 11.5432 6.54956H11.5442ZM0 20.0859V0.752764H10.9635C14.7913 0.752764 16.6185 3.24581 16.6185 5.68109C16.6185 8.08592 15.1399 9.70945 13.3116 10.1148C15.371 10.4351 16.9955 12.4052 16.9955 14.8405C16.9955 17.6527 15.1105 20.087 11.3111 20.087H0V20.0859ZM30.3954 5.68109L27.9307 12.9554H32.8601L30.3954 5.68004V5.68109ZM35.1799 20.0859L34.2242 17.303H26.596L25.6393 20.0859H19.9843L27.2639 0.752764H33.5269L40.8359 20.0859H35.1809H35.1799ZM58.2673 10.434C58.2673 7.27416 56.209 4.84098 53.0187 4.84098C49.7989 4.84098 47.7396 7.27416 47.7396 10.434C47.7396 13.5645 49.7989 16.0282 53.0187 16.0282C56.208 16.0282 58.2673 13.5645 58.2673 10.434ZM42.6653 10.434C42.6653 4.55009 47.1011 0.43457 53.0187 0.43457C58.9341 0.43457 63.3416 4.55009 63.3416 10.434C63.3416 16.3191 58.9341 20.4346 53.0187 20.4346C47.1011 20.4346 42.6642 16.318 42.6642 10.434H42.6653ZM80.1061 14.1453C80.1061 13.1875 79.4099 12.4052 78.1927 12.4052H73.1751V15.8832H78.1927C79.3815 15.8832 80.1061 15.187 80.1061 14.1442V14.1453ZM79.7301 6.54956C79.7301 5.62228 79.0339 4.95544 78.0184 4.95544H73.1751V8.17308H78.0184C79.0339 8.17308 79.7301 7.50624 79.7301 6.54956ZM68.1859 20.0859V0.752764H79.1494C82.9783 0.752764 84.8055 3.24581 84.8055 5.68109C84.8055 8.08592 83.3259 9.70945 81.4976 10.1148C83.5569 10.4351 85.1815 12.4052 85.1815 14.8405C85.1815 17.6527 83.2964 20.087 79.497 20.087H68.187L68.1859 20.0859ZM98.5813 5.68109L96.1166 12.9554H101.047L98.5813 5.68004V5.68109ZM103.367 20.0859L102.411 17.303H94.7829L93.8252 20.0859H88.1702L95.4498 0.752764H101.714L109.023 20.0859H103.367ZM124.685 14.1453C124.685 13.1875 123.987 12.4052 122.77 12.4052H117.753V15.8832H122.77C123.959 15.8832 124.685 15.187 124.685 14.1442V14.1453ZM124.308 6.54956C124.308 5.62228 123.612 4.95544 122.596 4.95544H117.753V8.17308H122.596C123.612 8.17308 124.308 7.50624 124.308 6.54956ZM112.764 20.0859V0.752764H123.727C127.556 0.752764 129.383 3.24581 129.383 5.68109C129.383 8.08592 127.903 9.70945 126.075 10.1148C128.134 10.4351 129.759 12.4052 129.759 14.8405C129.759 17.6527 127.874 20.087 124.075 20.087H112.765L112.764 20.0859Z"
+						fill="#F19B3E"
+					/>
+				</svg>
 			</a>
-            <ul class="dropdown-nav">
-              <li><a href="./afya-pap.html">Afya pap</a></li>
-              <li><a href="./caregiver.html">Caregiver</a></li>
-              <li><a href="./devices.html">Devices</a></li>
-			  <li><a href="./afya-pap-medic.html">Afya Pap Medic</a></li>
-            </ul>
-			<div class="toggle-dropdown-overlay" onclick="showProducts()"></div>
-          </li>
-          <li class="route-link">
-            <a href="./about.html">About us</a>
-          </li>
-          <li class="route-link">
-            <a href="./contact.html">Contact us</a>
-          </li>
-          <li class="route-link">
-            <a href="https://blog.afyapap.com/">Blog</a>
-          </li>
-        </ul>
-        <ul class="external-link" id="signup">
-          <li>
-			  <a class="show-web" onclick="showSignup()">
-				Caregiver
-				<span>
-					<svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M12.1 4L7.5 8.6L2.9 4L1.5 5.4L7.5 11.4L13.5 5.4L12.1 4Z" fill="#053E5B"/>
-					</svg>
-				</span>
-			</a>
-            <ul class="dropdown-nav show-mobile">
-				<li><span>Want to join Caregiver? </span><a href="https://caregiver.afyapap.com/sign-up/patient">Sign Up</a></li>
-				<li><span>Already a member? </span><a href="https://caregiver.afyapap.com/">Sign In</a></li>
-			  </ul>
-			</li>
-			<div class="toggle-dropdown-overlay" onclick="showSignup()"></div>
-        </ul>
-      </div>
-	  <div class="humburger-menu-container hide-web show-portable">
-		<button class="menu" onclick="showMenu()">
-			<svg viewBox="0 0 30 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<rect width="30" height="3.14286" fill="#15486B"/>
-				<rect y="9.42871" width="30" height="3.14286" fill="#15486B"/>
-				<rect y="18.8569" width="30" height="3.14286" fill="#15486B"/>
-			</svg>						
-		</button>
-	  </div>
-    </nav>
-	<div class="main-content caregiver-page">
-	<section class="section-container header " id="header">
-		<div class="header-text">
-			<h1>Caregiver</h1>
-			<div class="hr-line"></div>
-			<p>The caregiver portal has been integrated with the Afya Pap Mobile application for real-time sharing of  blood pressure, blood sugar and other vital health information with caregivers and care partners.</p>
-		</div>
-		<div class="buttons">
-			<button  onclick="location.href='https://caregiver.afyapap.com/sign-up/patient'" class="button request-button">Sign up</button>
-		</div>
-		<div class="devices-container">
-			<div class="device-three show">
-				<img src="images/web.svg" alt="">	
-
-				<div class="laptop">
-					<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 790.67 484.23"><defs><style>.laptop-fill-1{fill:#181818;}.laptop-fill-2{fill:#303030;}.laptop-fill-3{fill:url(#linear-gradient);}.laptop-fill-4{fill:url(#linear-gradient-2);}.laptop-fill-5{fill:url(#linear-gradient-3);}.laptop-fill-6{fill:#0f0f0f;}.laptop-fill-7{fill:#151515;}.laptop-fill-8{fill:#242424;}.laptop-fill-9{fill:#535353;}.laptop-fill-10{fill:#111;}.laptop-fill-11{fill:#121212;}.laptop-fill-12{fill:#141414;}.laptop-fill-13{fill:#161616;}.laptop-fill-14{fill:#191919;}.laptop-fill-15{fill:#1b1b1b;}.laptop-fill-16{fill:#1d1d1d;}.laptop-fill-17{fill:#1f1f1f;}.laptop-fill-18{fill:#202020;}.laptop-fill-19{fill:#222;}.laptop-fill-20{fill:#262626;}.laptop-fill-21{fill:#272727;}.laptop-fill-22{fill:#292929;}.laptop-fill-23{fill:#2b2b2b;}.laptop-fill-24{fill:#2d2d2d;}.laptop-fill-25{fill:#2e2e2e;}.laptop-fill-26{fill:#323232;}.laptop-fill-27{fill:#343434;}.laptop-fill-28{fill:#353535;}.laptop-fill-29{fill:#373737;}.laptop-fill-30{fill:#393939;}.laptop-fill-31{fill:#3b3b3b;}.laptop-fill-32{fill:#3c3c3c;}.laptop-fill-33{fill:#3e3e3e;}.laptop-fill-34{fill:#404040;}.laptop-fill-35{fill:#424242;}.laptop-fill-36{fill:#434343;}.laptop-fill-37{fill:#454545;}.laptop-fill-38{fill:#7d7c84;}.laptop-fill-39{fill:#fff;}.laptop-fill-40{fill:url(#linear-gradient-4);}.laptop-fill-41{fill:url(#linear-gradient-5);}.laptop-fill-42{fill:url(#linear-gradient-6);}.laptop-fill-43{fill:url(#linear-gradient-7);}.laptop-fill-44{fill:#53596b;}</style><linearGradient id="linear-gradient" x1="46.85" y1="19.43" x2="737.92" y2="446.68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3c3c3c"/><stop offset="1" stop-color="#070707"/></linearGradient><linearGradient id="linear-gradient-2" x1="395.65" y1="480.25" x2="395.65" y2="483.94" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#575757"/><stop offset="1" stop-color="#151515"/></linearGradient><linearGradient id="linear-gradient-3" x1="395.34" y1="461.86" x2="395.34" y2="479.76" xlink:href="#linear-gradient-2"/><linearGradient id="linear-gradient-4" x1="472.01" y1="22.88" x2="472.57" y2="20.06" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#151515"/><stop offset="1" stop-color="#090909"/></linearGradient><linearGradient id="linear-gradient-5" x1="472.25" y1="21.23" x2="472.63" y2="23.55" xlink:href="#linear-gradient-4"/><linearGradient id="linear-gradient-6" x1="319.43" y1="23.25" x2="317.7" y2="20.31" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#303030"/><stop offset="1" stop-color="#242424"/></linearGradient><linearGradient id="linear-gradient-7" x1="317.61" y1="20.18" x2="319.15" y2="22.76" xlink:href="#linear-gradient-6"/></defs><g id="Layer_2" data-name="Layer 2"><g id="SCREEN"><path class="laptop-fill-1" d="M725.82,475.35a28.8,28.8,0,0,0,28.56-25.79A28.8,28.8,0,0,1,725.82,475.35Z"/><path class="laptop-fill-1" d="M37.05,453.79c-.24-.92-.43-1.85-.58-2.8C36.62,451.94,36.81,452.87,37.05,453.79Z"/><path class="laptop-fill-1" d="M37.05,453.79a28.83,28.83,0,0,0,27.8,21.56A28.83,28.83,0,0,1,37.05,453.79Z"/><path class="laptop-fill-1" d="M723.26,0H67.41C52.68,0,36.14,13.23,36.14,30.55V446.64a28.37,28.37,0,0,0,.33,4.35c.15.95.34,1.88.58,2.8a28.83,28.83,0,0,0,27.8,21.56h661a28.8,28.8,0,0,0,28.56-25.79,28.26,28.26,0,0,0,.15-2.92V30.55C754.53,13.23,738,0,723.26,0Z"/><rect class="laptop-fill-2" x="39.54" y="3.99" width="711.58" height="467.91" rx="28.35"/><path class="laptop-fill-3" d="M749.1,433.6c0,23.59-12.56,27.91-27.91,27.91H69.48c-15.35,0-27.91-3.05-27.91-27.91V33.38A28,28,0,0,1,69.48,5.47H721.19A28,28,0,0,1,749.1,33.38Z"/><rect x="53.6" y="36.31" width="683.48" height="385.81"/><path class="laptop-fill-4" d="M22.06,479.32v1.92s.05,1.78,3.26,2.82a1.83,1.83,0,0,0,.74.17H765.25a1.83,1.83,0,0,0,.74-.17c3.21-1,3.26-2.82,3.26-2.82v-1.92l.76-2.19H21.3Z"/><path class="laptop-fill-5" d="M789.47,461.47H1.2s-1.2.18-1.2,1.06V466c0,4.28,5.07,15.36,14.3,15.36H776.37c9.23,0,14.3-11.08,14.3-15.36v-3.43C790.67,461.65,789.47,461.47,789.47,461.47Z"/><path class="laptop-fill-6" d="M11,480.8a11,11,0,0,0,3.34.52H776.37a11.08,11.08,0,0,0,3.35-.52Z"/><path class="laptop-fill-7" d="M785.94,476.55H4.74c.17.2.35.39.53.58H785.4Z"/><path class="laptop-fill-8" d="M785.1,477.44c.19-.19.38-.39.56-.59H5c.18.2.37.39.56.59Z"/><path class="laptop-fill-9" d="M467,461.47H306v.92a9.36,9.36,0,0,0,9.17,9.54h161a9.36,9.36,0,0,0,9.17-9.54v-.92Z"/><path class="laptop-fill-6" d="M466.6,461.47H306.48v.17a9.19,9.19,0,0,0,9.12,9.26H475.72a9.19,9.19,0,0,0,9.12-9.26v-.17Z"/><path class="laptop-fill-10" d="M306.7,461.47v.17a9.06,9.06,0,0,0,9.09,9.18H475.52a9.07,9.07,0,0,0,9.1-9.18v-.17H306.7Z"/><path class="laptop-fill-11" d="M306.91,461.47v.17a8.93,8.93,0,0,0,9.08,9.09H475.33a8.93,8.93,0,0,0,9.07-9.09v-.17H306.91Z"/><path class="laptop-fill-12" d="M307.13,461.47v.17a8.8,8.8,0,0,0,9.05,9h159a8.79,8.79,0,0,0,9.05-9v-.17h-177Z"/><path class="laptop-fill-13" d="M307.35,461.47v.17a8.66,8.66,0,0,0,9,8.91H474.94a8.67,8.67,0,0,0,9-8.91v-.17H307.35Z"/><path class="laptop-fill-1" d="M307.56,461.47v.17c.05,5.14,3.62,8.83,9,8.83H474.74c5.39,0,9-3.69,9-8.83v-.17H307.56Z"/><path class="laptop-fill-14" d="M307.78,461.47v.17c.06,5.15,3.53,8.74,9,8.74H474.55c5.45,0,8.93-3.59,9-8.74v-.17H307.78Z"/><path class="laptop-fill-15" d="M308,461.47v.17c.06,5.16,3.43,8.65,9,8.65h157.4c5.52,0,8.9-3.49,9-8.65v-.17H308Z"/><path class="laptop-fill-16" d="M308.21,461.47v.17c.07,5.16,3.35,8.56,8.94,8.56h157c5.6,0,8.88-3.4,8.94-8.56v-.17H308.21Z"/><path class="laptop-fill-17" d="M308.43,461.47v.17c.07,5.17,3.25,8.47,8.92,8.47H474c5.66,0,8.85-3.3,8.91-8.47v-.17H308.43Z"/><path class="laptop-fill-18" d="M308.65,461.47v.17c.07,5.17,3.16,8.39,8.89,8.39H473.77c5.74,0,8.82-3.22,8.9-8.39v-.17h-174Z"/><path class="laptop-fill-19" d="M308.86,461.47c0,.08,0,.15,0,.17.07,5.18,3.06,8.3,8.87,8.3H473.58c5.8,0,8.79-3.12,8.87-8.3v-.17H308.86Z"/><path class="laptop-fill-8" d="M309.08,461.47v.18c.08,5.17,3,8.2,8.85,8.2H473.38c5.88,0,8.77-3,8.85-8.2v-.18H309.08Z"/><path class="laptop-fill-20" d="M309.3,461.47v.18c.08,5.18,2.88,8.11,8.83,8.11H473.19c5.94,0,8.74-2.93,8.82-8.11a.82.82,0,0,0,0-.18H309.3Z"/><path class="laptop-fill-21" d="M309.51,461.47a1.44,1.44,0,0,1,0,.18c.08,5.18,2.79,8,8.8,8H473c6,0,8.71-2.85,8.8-8v-.18H309.51Z"/><path class="laptop-fill-22" d="M309.73,461.47v.18c.09,5.19,2.7,7.94,8.78,7.94H472.8c6.08,0,8.7-2.75,8.78-7.94v-.18H309.73Z"/><path class="laptop-fill-23" d="M310,461.47v.18c.09,5.19,2.6,7.85,8.76,7.85h153.9c6.15,0,8.67-2.66,8.75-7.85,0,0,0-.1,0-.18H310Z"/><path class="laptop-fill-24" d="M310.17,461.47v.18c.09,5.2,2.51,7.76,8.73,7.76H472.41c6.22,0,8.65-2.56,8.74-7.76v-.18h-171Z"/><path class="laptop-fill-25" d="M310.38,461.47v.18c.1,5.2,2.42,7.67,8.72,7.67H472.22c6.29,0,8.62-2.47,8.71-7.67v-.18H310.38Z"/><path class="laptop-fill-2" d="M310.6,461.47v.18c.1,5.21,2.33,7.59,8.69,7.59H472c6.37,0,8.6-2.38,8.69-7.59a1.36,1.36,0,0,1,0-.18H310.6Z"/><path class="laptop-fill-26" d="M310.82,461.47v.18c.1,5.22,2.23,7.5,8.67,7.5H471.83c6.43,0,8.57-2.28,8.67-7.5v-.18H310.82Z"/><path class="laptop-fill-27" d="M311,461.47a.92.92,0,0,0,0,.18c.1,5.22,2.14,7.41,8.64,7.41h152c6.51,0,8.55-2.19,8.65-7.41v-.18H311Z"/><path class="laptop-fill-28" d="M311.25,461.47v.18c.1,5.23,2.05,7.32,8.62,7.32H471.44c6.57,0,8.52-2.09,8.62-7.32v-.18H311.25Z"/><path class="laptop-fill-29" d="M311.47,461.47v.18c.1,5.23,2,7.24,8.6,7.24H471.25c6.64,0,8.49-2,8.59-7.24a1,1,0,0,0,0-.18H311.47Z"/><path class="laptop-fill-30" d="M311.68,461.47c0,.07,0,.13,0,.18.1,5.24,1.86,7.15,8.57,7.15H471.05c6.71,0,8.47-1.91,8.58-7.15v-.18H311.68Z"/><path class="laptop-fill-31" d="M311.9,461.47v.18c.1,5.24,1.77,7.06,8.56,7.06h150.4c6.78,0,8.45-1.82,8.55-7.06v-.18H311.9Z"/><path class="laptop-fill-32" d="M312.12,461.47v.18c.1,5.25,1.68,7,8.53,7h150c6.85,0,8.43-1.72,8.53-7a1,1,0,0,0,0-.18H312.12Z"/><path class="laptop-fill-33" d="M312.33,461.47a1.21,1.21,0,0,1,0,.18c.1,5.25,1.58,6.88,8.51,6.88H470.47c6.92,0,8.4-1.63,8.51-6.88v-.18H312.33Z"/><path class="laptop-fill-34" d="M312.55,461.47v.18c.12,5.26,1.5,6.8,8.49,6.8H470.27c7,0,8.38-1.54,8.49-6.8v-.18H312.55Z"/><path class="laptop-fill-35" d="M312.77,461.47v.18c.12,5.26,1.4,6.71,8.47,6.71H470.08c7.06,0,8.35-1.45,8.46-6.71,0,0,0-.11,0-.18H312.77Z"/><path class="laptop-fill-36" d="M313,461.47a1.28,1.28,0,0,1,0,.19c.12,5.26,1.31,6.61,8.44,6.61H469.89c7.13,0,8.32-1.35,8.44-6.61v-.19H313Z"/><path class="laptop-fill-37" d="M313.2,461.47c.1,5.43,1.14,6.71,8.42,6.71H469.69c7.28,0,8.32-1.28,8.42-6.71Z"/><path class="laptop-fill-1" d="M398.67,21.48a3.14,3.14,0,1,1-3.14-3.15A3.15,3.15,0,0,1,398.67,21.48Z"/><path class="laptop-fill-38" d="M397.1,21.48a1.57,1.57,0,1,1-1.57-1.58A1.58,1.58,0,0,1,397.1,21.48Z"/><path class="laptop-fill-39" d="M396.13,20.63a.58.58,0,0,1-.63.51.59.59,0,0,1-.64-.51.6.6,0,0,1,.64-.52A.59.59,0,0,1,396.13,20.63Z"/><path class="laptop-fill-39" d="M396.13,22.35a.58.58,0,0,1-.63.51.52.52,0,1,1,0-1A.58.58,0,0,1,396.13,22.35Z"/><path class="laptop-fill-40" d="M474.77,21.48A2.48,2.48,0,1,1,472.29,19,2.48,2.48,0,0,1,474.77,21.48Z"/><path class="laptop-fill-41" d="M473.62,21.48a1.33,1.33,0,1,1-1.33-1.33A1.32,1.32,0,0,1,473.62,21.48Z"/><path class="laptop-fill-42" d="M320.85,21.48A2.47,2.47,0,1,1,318.38,19,2.47,2.47,0,0,1,320.85,21.48Z"/><path class="laptop-fill-43" d="M319.71,21.48a1.33,1.33,0,1,1-1.33-1.33A1.32,1.32,0,0,1,319.71,21.48Z"/><rect class="laptop-fill-44" x="53.89" y="36.6" width="682.9" height="385.22"/></g></g></svg> -->
-				</div>
+			<div class="links" id="menu">
+				<ul class="nav-links">
+					<li class="route-link">
+						<a href="./index.html">Home</a>
+					</li>
+					<li class="route-link" id="products">
+						<a onclick="showProducts()">
+							Products
+							<span>
+								<svg
+									width="15"
+									height="15"
+									viewBox="0 0 15 15"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12.1 4L7.5 8.6L2.9 4L1.5 5.4L7.5 11.4L13.5 5.4L12.1 4Z"
+										fill="#053E5B"
+									/>
+								</svg>
+							</span>
+						</a>
+						<ul class="dropdown-nav">
+							<li><a href="./afya-pap.html">Afya pap</a></li>
+							<li><a href="./caregiver.html">Caregiver</a></li>
+							<li><a href="./devices.html">Devices</a></li>
+							<li>
+								<a href="./afya-pap-medic.html"
+									>Afya Pap Medic</a
+								>
+							</li>
+						</ul>
+						<div
+							class="toggle-dropdown-overlay"
+							onclick="showProducts()"
+						></div>
+					</li>
+					<li class="route-link">
+						<a href="./about.html">About us</a>
+					</li>
+					<li class="route-link">
+						<a href="./contact.html">Contact us</a>
+					</li>
+					<li class="route-link">
+						<a href="https://blog.afyapap.com/">Blog</a>
+					</li>
+				</ul>
+				<ul class="external-link" id="signup">
+					<li>
+						<a class="show-web" onclick="showSignup()">
+							Caregiver
+							<span>
+								<svg
+									width="15"
+									height="15"
+									viewBox="0 0 15 15"
+									fill="none"
+									xmlns="http://www.w3.org/2000/svg"
+								>
+									<path
+										d="M12.1 4L7.5 8.6L2.9 4L1.5 5.4L7.5 11.4L13.5 5.4L12.1 4Z"
+										fill="#053E5B"
+									/>
+								</svg>
+							</span>
+						</a>
+						<ul class="dropdown-nav show-mobile">
+							<li>
+								<span>Want to join Caregiver? </span
+								><a
+									href="https://caregiver.afyapap.com/sign-up/patient"
+									>Sign Up</a
+								>
+							</li>
+							<li>
+								<span>Already a member? </span
+								><a href="https://caregiver.afyapap.com/"
+									>Sign In</a
+								>
+							</li>
+						</ul>
+					</li>
+					<div
+						class="toggle-dropdown-overlay"
+						onclick="showSignup()"
+					></div>
+				</ul>
 			</div>
-		</div>
-	</section>
+			<div class="humburger-menu-container hide-web show-portable">
+				<button class="menu" onclick="showMenu()">
+					<svg
+						viewBox="0 0 30 22"
+						fill="none"
+						xmlns="http://www.w3.org/2000/svg"
+					>
+						<rect width="30" height="3.14286" fill="#15486B" />
+						<rect
+							y="9.42871"
+							width="30"
+							height="3.14286"
+							fill="#15486B"
+						/>
+						<rect
+							y="18.8569"
+							width="30"
+							height="3.14286"
+							fill="#15486B"
+						/>
+					</svg>
+				</button>
+			</div>
+		</nav>
+		<div class="main-content caregiver-page">
+			<section class="section-container header" id="header">
+				<div class="header-text">
+					<h1>Caregiver</h1>
+					<div class="hr-line"></div>
+					<p>
+						The caregiver portal has been integrated with the Afya
+						Pap Mobile application for real-time sharing of blood
+						pressure, blood sugar and other vital health information
+						with caregivers and care partners.
+					</p>
+				</div>
+				<div class="buttons">
+					<button
+						onclick="location.href='https://caregiver.afyapap.com/sign-up/patient'"
+						class="button request-button"
+					>
+						Sign up
+					</button>
+				</div>
+				<div class="devices-container">
+					<div class="device-three show">
+						<img src="images/web.svg" alt="" />
 
-	<section  class="section-container intro">
-		<h3>Web App</h3>
-		<div class="hr-line"></div>
-		<p>The caregiver web portal is a seamless data sharing link for a network of caregivers and care partners crucial for helping a patient manage their condition effectively i.e. caregivers such as pharmacies, private surgeries, public and private hospitals. The caregiver portal has been integrated with the Afya Pap Mobile application for real-time sharing of  blood pressure, blood sugar and other vital health information with caregivers and care partners.</p>
-		<ul class="help-links">
-			<!-- <li class="help-link browse">
+						<div class="laptop">
+							<!-- <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 790.67 484.23"><defs><style>.laptop-fill-1{fill:#181818;}.laptop-fill-2{fill:#303030;}.laptop-fill-3{fill:url(#linear-gradient);}.laptop-fill-4{fill:url(#linear-gradient-2);}.laptop-fill-5{fill:url(#linear-gradient-3);}.laptop-fill-6{fill:#0f0f0f;}.laptop-fill-7{fill:#151515;}.laptop-fill-8{fill:#242424;}.laptop-fill-9{fill:#535353;}.laptop-fill-10{fill:#111;}.laptop-fill-11{fill:#121212;}.laptop-fill-12{fill:#141414;}.laptop-fill-13{fill:#161616;}.laptop-fill-14{fill:#191919;}.laptop-fill-15{fill:#1b1b1b;}.laptop-fill-16{fill:#1d1d1d;}.laptop-fill-17{fill:#1f1f1f;}.laptop-fill-18{fill:#202020;}.laptop-fill-19{fill:#222;}.laptop-fill-20{fill:#262626;}.laptop-fill-21{fill:#272727;}.laptop-fill-22{fill:#292929;}.laptop-fill-23{fill:#2b2b2b;}.laptop-fill-24{fill:#2d2d2d;}.laptop-fill-25{fill:#2e2e2e;}.laptop-fill-26{fill:#323232;}.laptop-fill-27{fill:#343434;}.laptop-fill-28{fill:#353535;}.laptop-fill-29{fill:#373737;}.laptop-fill-30{fill:#393939;}.laptop-fill-31{fill:#3b3b3b;}.laptop-fill-32{fill:#3c3c3c;}.laptop-fill-33{fill:#3e3e3e;}.laptop-fill-34{fill:#404040;}.laptop-fill-35{fill:#424242;}.laptop-fill-36{fill:#434343;}.laptop-fill-37{fill:#454545;}.laptop-fill-38{fill:#7d7c84;}.laptop-fill-39{fill:#fff;}.laptop-fill-40{fill:url(#linear-gradient-4);}.laptop-fill-41{fill:url(#linear-gradient-5);}.laptop-fill-42{fill:url(#linear-gradient-6);}.laptop-fill-43{fill:url(#linear-gradient-7);}.laptop-fill-44{fill:#53596b;}</style><linearGradient id="linear-gradient" x1="46.85" y1="19.43" x2="737.92" y2="446.68" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#3c3c3c"/><stop offset="1" stop-color="#070707"/></linearGradient><linearGradient id="linear-gradient-2" x1="395.65" y1="480.25" x2="395.65" y2="483.94" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#575757"/><stop offset="1" stop-color="#151515"/></linearGradient><linearGradient id="linear-gradient-3" x1="395.34" y1="461.86" x2="395.34" y2="479.76" xlink:href="#linear-gradient-2"/><linearGradient id="linear-gradient-4" x1="472.01" y1="22.88" x2="472.57" y2="20.06" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#151515"/><stop offset="1" stop-color="#090909"/></linearGradient><linearGradient id="linear-gradient-5" x1="472.25" y1="21.23" x2="472.63" y2="23.55" xlink:href="#linear-gradient-4"/><linearGradient id="linear-gradient-6" x1="319.43" y1="23.25" x2="317.7" y2="20.31" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#303030"/><stop offset="1" stop-color="#242424"/></linearGradient><linearGradient id="linear-gradient-7" x1="317.61" y1="20.18" x2="319.15" y2="22.76" xlink:href="#linear-gradient-6"/></defs><g id="Layer_2" data-name="Layer 2"><g id="SCREEN"><path class="laptop-fill-1" d="M725.82,475.35a28.8,28.8,0,0,0,28.56-25.79A28.8,28.8,0,0,1,725.82,475.35Z"/><path class="laptop-fill-1" d="M37.05,453.79c-.24-.92-.43-1.85-.58-2.8C36.62,451.94,36.81,452.87,37.05,453.79Z"/><path class="laptop-fill-1" d="M37.05,453.79a28.83,28.83,0,0,0,27.8,21.56A28.83,28.83,0,0,1,37.05,453.79Z"/><path class="laptop-fill-1" d="M723.26,0H67.41C52.68,0,36.14,13.23,36.14,30.55V446.64a28.37,28.37,0,0,0,.33,4.35c.15.95.34,1.88.58,2.8a28.83,28.83,0,0,0,27.8,21.56h661a28.8,28.8,0,0,0,28.56-25.79,28.26,28.26,0,0,0,.15-2.92V30.55C754.53,13.23,738,0,723.26,0Z"/><rect class="laptop-fill-2" x="39.54" y="3.99" width="711.58" height="467.91" rx="28.35"/><path class="laptop-fill-3" d="M749.1,433.6c0,23.59-12.56,27.91-27.91,27.91H69.48c-15.35,0-27.91-3.05-27.91-27.91V33.38A28,28,0,0,1,69.48,5.47H721.19A28,28,0,0,1,749.1,33.38Z"/><rect x="53.6" y="36.31" width="683.48" height="385.81"/><path class="laptop-fill-4" d="M22.06,479.32v1.92s.05,1.78,3.26,2.82a1.83,1.83,0,0,0,.74.17H765.25a1.83,1.83,0,0,0,.74-.17c3.21-1,3.26-2.82,3.26-2.82v-1.92l.76-2.19H21.3Z"/><path class="laptop-fill-5" d="M789.47,461.47H1.2s-1.2.18-1.2,1.06V466c0,4.28,5.07,15.36,14.3,15.36H776.37c9.23,0,14.3-11.08,14.3-15.36v-3.43C790.67,461.65,789.47,461.47,789.47,461.47Z"/><path class="laptop-fill-6" d="M11,480.8a11,11,0,0,0,3.34.52H776.37a11.08,11.08,0,0,0,3.35-.52Z"/><path class="laptop-fill-7" d="M785.94,476.55H4.74c.17.2.35.39.53.58H785.4Z"/><path class="laptop-fill-8" d="M785.1,477.44c.19-.19.38-.39.56-.59H5c.18.2.37.39.56.59Z"/><path class="laptop-fill-9" d="M467,461.47H306v.92a9.36,9.36,0,0,0,9.17,9.54h161a9.36,9.36,0,0,0,9.17-9.54v-.92Z"/><path class="laptop-fill-6" d="M466.6,461.47H306.48v.17a9.19,9.19,0,0,0,9.12,9.26H475.72a9.19,9.19,0,0,0,9.12-9.26v-.17Z"/><path class="laptop-fill-10" d="M306.7,461.47v.17a9.06,9.06,0,0,0,9.09,9.18H475.52a9.07,9.07,0,0,0,9.1-9.18v-.17H306.7Z"/><path class="laptop-fill-11" d="M306.91,461.47v.17a8.93,8.93,0,0,0,9.08,9.09H475.33a8.93,8.93,0,0,0,9.07-9.09v-.17H306.91Z"/><path class="laptop-fill-12" d="M307.13,461.47v.17a8.8,8.8,0,0,0,9.05,9h159a8.79,8.79,0,0,0,9.05-9v-.17h-177Z"/><path class="laptop-fill-13" d="M307.35,461.47v.17a8.66,8.66,0,0,0,9,8.91H474.94a8.67,8.67,0,0,0,9-8.91v-.17H307.35Z"/><path class="laptop-fill-1" d="M307.56,461.47v.17c.05,5.14,3.62,8.83,9,8.83H474.74c5.39,0,9-3.69,9-8.83v-.17H307.56Z"/><path class="laptop-fill-14" d="M307.78,461.47v.17c.06,5.15,3.53,8.74,9,8.74H474.55c5.45,0,8.93-3.59,9-8.74v-.17H307.78Z"/><path class="laptop-fill-15" d="M308,461.47v.17c.06,5.16,3.43,8.65,9,8.65h157.4c5.52,0,8.9-3.49,9-8.65v-.17H308Z"/><path class="laptop-fill-16" d="M308.21,461.47v.17c.07,5.16,3.35,8.56,8.94,8.56h157c5.6,0,8.88-3.4,8.94-8.56v-.17H308.21Z"/><path class="laptop-fill-17" d="M308.43,461.47v.17c.07,5.17,3.25,8.47,8.92,8.47H474c5.66,0,8.85-3.3,8.91-8.47v-.17H308.43Z"/><path class="laptop-fill-18" d="M308.65,461.47v.17c.07,5.17,3.16,8.39,8.89,8.39H473.77c5.74,0,8.82-3.22,8.9-8.39v-.17h-174Z"/><path class="laptop-fill-19" d="M308.86,461.47c0,.08,0,.15,0,.17.07,5.18,3.06,8.3,8.87,8.3H473.58c5.8,0,8.79-3.12,8.87-8.3v-.17H308.86Z"/><path class="laptop-fill-8" d="M309.08,461.47v.18c.08,5.17,3,8.2,8.85,8.2H473.38c5.88,0,8.77-3,8.85-8.2v-.18H309.08Z"/><path class="laptop-fill-20" d="M309.3,461.47v.18c.08,5.18,2.88,8.11,8.83,8.11H473.19c5.94,0,8.74-2.93,8.82-8.11a.82.82,0,0,0,0-.18H309.3Z"/><path class="laptop-fill-21" d="M309.51,461.47a1.44,1.44,0,0,1,0,.18c.08,5.18,2.79,8,8.8,8H473c6,0,8.71-2.85,8.8-8v-.18H309.51Z"/><path class="laptop-fill-22" d="M309.73,461.47v.18c.09,5.19,2.7,7.94,8.78,7.94H472.8c6.08,0,8.7-2.75,8.78-7.94v-.18H309.73Z"/><path class="laptop-fill-23" d="M310,461.47v.18c.09,5.19,2.6,7.85,8.76,7.85h153.9c6.15,0,8.67-2.66,8.75-7.85,0,0,0-.1,0-.18H310Z"/><path class="laptop-fill-24" d="M310.17,461.47v.18c.09,5.2,2.51,7.76,8.73,7.76H472.41c6.22,0,8.65-2.56,8.74-7.76v-.18h-171Z"/><path class="laptop-fill-25" d="M310.38,461.47v.18c.1,5.2,2.42,7.67,8.72,7.67H472.22c6.29,0,8.62-2.47,8.71-7.67v-.18H310.38Z"/><path class="laptop-fill-2" d="M310.6,461.47v.18c.1,5.21,2.33,7.59,8.69,7.59H472c6.37,0,8.6-2.38,8.69-7.59a1.36,1.36,0,0,1,0-.18H310.6Z"/><path class="laptop-fill-26" d="M310.82,461.47v.18c.1,5.22,2.23,7.5,8.67,7.5H471.83c6.43,0,8.57-2.28,8.67-7.5v-.18H310.82Z"/><path class="laptop-fill-27" d="M311,461.47a.92.92,0,0,0,0,.18c.1,5.22,2.14,7.41,8.64,7.41h152c6.51,0,8.55-2.19,8.65-7.41v-.18H311Z"/><path class="laptop-fill-28" d="M311.25,461.47v.18c.1,5.23,2.05,7.32,8.62,7.32H471.44c6.57,0,8.52-2.09,8.62-7.32v-.18H311.25Z"/><path class="laptop-fill-29" d="M311.47,461.47v.18c.1,5.23,2,7.24,8.6,7.24H471.25c6.64,0,8.49-2,8.59-7.24a1,1,0,0,0,0-.18H311.47Z"/><path class="laptop-fill-30" d="M311.68,461.47c0,.07,0,.13,0,.18.1,5.24,1.86,7.15,8.57,7.15H471.05c6.71,0,8.47-1.91,8.58-7.15v-.18H311.68Z"/><path class="laptop-fill-31" d="M311.9,461.47v.18c.1,5.24,1.77,7.06,8.56,7.06h150.4c6.78,0,8.45-1.82,8.55-7.06v-.18H311.9Z"/><path class="laptop-fill-32" d="M312.12,461.47v.18c.1,5.25,1.68,7,8.53,7h150c6.85,0,8.43-1.72,8.53-7a1,1,0,0,0,0-.18H312.12Z"/><path class="laptop-fill-33" d="M312.33,461.47a1.21,1.21,0,0,1,0,.18c.1,5.25,1.58,6.88,8.51,6.88H470.47c6.92,0,8.4-1.63,8.51-6.88v-.18H312.33Z"/><path class="laptop-fill-34" d="M312.55,461.47v.18c.12,5.26,1.5,6.8,8.49,6.8H470.27c7,0,8.38-1.54,8.49-6.8v-.18H312.55Z"/><path class="laptop-fill-35" d="M312.77,461.47v.18c.12,5.26,1.4,6.71,8.47,6.71H470.08c7.06,0,8.35-1.45,8.46-6.71,0,0,0-.11,0-.18H312.77Z"/><path class="laptop-fill-36" d="M313,461.47a1.28,1.28,0,0,1,0,.19c.12,5.26,1.31,6.61,8.44,6.61H469.89c7.13,0,8.32-1.35,8.44-6.61v-.19H313Z"/><path class="laptop-fill-37" d="M313.2,461.47c.1,5.43,1.14,6.71,8.42,6.71H469.69c7.28,0,8.32-1.28,8.42-6.71Z"/><path class="laptop-fill-1" d="M398.67,21.48a3.14,3.14,0,1,1-3.14-3.15A3.15,3.15,0,0,1,398.67,21.48Z"/><path class="laptop-fill-38" d="M397.1,21.48a1.57,1.57,0,1,1-1.57-1.58A1.58,1.58,0,0,1,397.1,21.48Z"/><path class="laptop-fill-39" d="M396.13,20.63a.58.58,0,0,1-.63.51.59.59,0,0,1-.64-.51.6.6,0,0,1,.64-.52A.59.59,0,0,1,396.13,20.63Z"/><path class="laptop-fill-39" d="M396.13,22.35a.58.58,0,0,1-.63.51.52.52,0,1,1,0-1A.58.58,0,0,1,396.13,22.35Z"/><path class="laptop-fill-40" d="M474.77,21.48A2.48,2.48,0,1,1,472.29,19,2.48,2.48,0,0,1,474.77,21.48Z"/><path class="laptop-fill-41" d="M473.62,21.48a1.33,1.33,0,1,1-1.33-1.33A1.32,1.32,0,0,1,473.62,21.48Z"/><path class="laptop-fill-42" d="M320.85,21.48A2.47,2.47,0,1,1,318.38,19,2.47,2.47,0,0,1,320.85,21.48Z"/><path class="laptop-fill-43" d="M319.71,21.48a1.33,1.33,0,1,1-1.33-1.33A1.32,1.32,0,0,1,319.71,21.48Z"/><rect class="laptop-fill-44" x="53.89" y="36.6" width="682.9" height="385.22"/></g></g></svg> -->
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="section-container intro">
+				<h3>Web App</h3>
+				<div class="hr-line"></div>
+				<p>
+					The caregiver web portal is a seamless data sharing link for
+					a network of caregivers and care partners crucial for
+					helping a patient manage their condition effectively i.e.
+					caregivers such as pharmacies, private surgeries, public and
+					private hospitals. The caregiver portal has been integrated
+					with the Afya Pap Mobile application for real-time sharing
+					of blood pressure, blood sugar and other vital health
+					information with caregivers and care partners.
+				</p>
+				<ul class="help-links">
+					<!-- <li class="help-link browse">
 				<a href="">
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M12 7L17 12L12 17M6 12L16 12L6 12ZM1 12C1 5.925 5.925 1 12 1C18.075 1 23 5.925 23 12C23 18.075 18.075 23 12 23C5.925 23 1 18.075 1 12Z" stroke-width="2"/>
@@ -135,293 +236,922 @@
 					<span>Watch Caregiver demo</span>	
 				</a>
 			</li> -->
-		</ul>
-	</section>
-
-
-	<section class="section-container caregiver-features">
-		<div>
-		<h3 class="text-align-left">Keep track of your chronic patients with Afya Pap Caregiver Module.</h3>
-		<div class="screen">
-			<svg class="dots-svg" width="233" height="233" viewBox="0 0 233 233" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<circle cx="7.82644" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="7.82644" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="7.82644" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="7.82644" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="7.82644" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="7.82644" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="7.82644" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="7.82644" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="38.9723" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="70.118" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="101.264" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="132.409" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="163.555" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="194.701" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="7.00772" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="38.1449" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="69.2809" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="100.45" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="131.586" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="162.724" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="193.859" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				<circle cx="225.847" cy="225.028" r="7.00772" fill="#E0E0E0" fill-opacity="0.5"/>
-				</svg>
-			<img src="./images/web.svg" alt="">
-			<svg class="waves-svg" width="233" height="189" viewBox="0 0 233 189" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<g clip-path="url(#clip0_119_2313)">
-				<path d="M233 170.321C227.209 178.497 219.658 184.571 210.12 187.751C200.582 190.873 192.35 187.921 185.083 181.506C180.313 177.248 176.623 172.081 172.649 167.142C170.548 164.53 168.504 161.918 166.063 159.648C162.486 156.355 159.648 156.014 155.333 158.171C151.87 159.875 149.315 162.657 146.873 165.552C143.013 170.094 139.55 174.977 135.462 179.291C124.277 191.044 110.254 191.044 99.0128 179.405C95.0953 175.317 91.7457 170.718 88.1689 166.347C85.6141 163.281 82.9457 160.272 79.3121 158.342C74.7702 155.957 71.7044 156.298 67.9573 159.818C63.3585 164.133 59.7818 169.299 55.7508 174.068C52.4011 178.099 48.8243 181.846 44.3392 184.628C35.6527 189.965 26.7959 189.738 17.8824 185.082C12.2617 182.13 7.49267 178.099 3.12106 173.557C0.168797 170.491 0.225571 166.12 3.12106 163.168C5.903 160.329 10.1611 160.215 13.3404 162.884C16.3495 165.438 19.1314 168.164 22.3675 170.378C29.4075 175.147 34.6875 174.693 40.6488 168.561C44.9069 164.189 48.5405 159.25 52.4579 154.538C55.5237 150.904 58.8166 147.384 62.9611 145C71.7044 140.004 80.2205 141.423 88.396 146.419C93.9599 149.826 97.9908 154.822 102.022 159.875C104.633 163.111 107.131 166.404 110.027 169.413C114.853 174.409 119.395 174.352 124.221 169.356C129.444 163.962 133.475 157.66 138.755 152.267C142.388 148.577 146.476 145.397 151.359 143.637C160.443 140.287 168.675 141.877 175.885 148.463C180.427 152.607 184.004 157.604 187.808 162.373C189.965 165.098 192.179 167.823 194.734 170.151C200.184 175.09 204.954 175.317 211.028 171.059C213.924 169.015 216.535 166.631 219.147 164.189C224.654 158.909 229.821 159.875 233 166.744C233 167.88 233 169.129 233 170.321Z" fill="#E0E0E0" fill-opacity="0.2"/>
-				<path d="M233 28.8963C228.117 35.4254 222.043 40.6486 214.719 44.2822C204.329 49.4486 193.882 47.8022 185.253 39.9105C180.257 35.3686 176.339 29.8615 172.138 24.6383C170.548 22.7079 168.959 20.7776 167.255 18.9608C162.997 14.3053 159.25 13.7944 153.232 17.7118C150.564 19.4718 148.463 21.8563 146.419 24.3544C142.786 28.726 139.493 33.3247 135.575 37.4125C124.164 49.4486 110.027 49.3918 98.6721 37.2989C94.7546 33.0976 91.405 28.4421 87.6579 24.0705C85.1598 21.1183 82.605 18.2795 79.0282 16.5195C74.7133 14.3621 71.6475 14.7028 68.0707 17.9957C63.6991 21.9699 60.2927 26.8525 56.6024 31.3944C52.9688 35.766 49.2217 39.9673 44.2823 42.9763C35.5959 48.3131 26.7391 48.086 17.8255 43.4305C12.2049 40.4783 7.43586 36.4473 3.06424 31.9054C0.168752 28.8963 0.168752 24.5815 2.89392 21.686C5.67585 18.7337 10.1042 18.5066 13.2836 21.2886C16.1791 23.7866 18.961 26.455 22.1404 28.6692C29.2939 33.6086 34.7443 33.0976 40.7623 26.7957C45.134 22.197 48.8811 17.0873 53.0256 12.2615C56.7727 7.88985 60.8604 3.80211 66.3675 1.75823C74.2024 -1.13725 81.5262 0.565976 88.3391 4.82404C93.3921 8.0034 97.2527 12.4318 101 17.0305C103.952 20.7208 106.791 24.5247 110.197 27.9312C114.966 32.757 119.281 32.757 124.05 27.9312C128.081 23.8434 131.431 19.1312 135.064 14.7595C138.584 10.5582 142.331 6.64082 147.214 4.0292C158.966 -2.32951 169.47 -0.512735 178.553 9.59308C183.266 14.8731 187.637 20.4937 192.179 25.9441C192.974 26.8525 193.826 27.7608 194.677 28.5557C200.128 33.5518 204.84 33.7789 210.915 29.4641C213.867 27.3634 216.819 25.1492 219.147 22.4241C223.008 17.8821 230.559 17.9389 232.886 25.3763C233 26.5118 233 27.7041 233 28.8963Z" fill="#E0E0E0" fill-opacity="0.2"/>
-				<path d="M233 99.1829C229.821 105.087 224.484 108.835 219.204 112.582C215.513 115.25 211.369 117.067 206.827 117.805C198.424 119.224 191.441 116.215 185.253 110.822C180.654 106.791 177.191 101.851 173.387 97.1958C171.343 94.6977 169.356 92.1429 167.085 89.7584C162.77 85.2165 158.626 84.8758 153.402 88.4526C150.848 90.2126 148.747 92.4836 146.76 94.8681C143.126 99.2965 139.606 103.838 135.746 108.096C124.504 120.36 110.14 120.303 98.7288 108.21C94.6979 103.895 91.2346 99.1261 87.4875 94.641C85.103 91.8023 82.5482 89.1339 79.1985 87.4306C74.7701 85.2164 71.8746 85.5571 68.2411 88.85C65.6862 91.121 63.5856 93.7894 61.4281 96.401C56.8862 101.965 52.6849 107.813 46.8939 112.127C37.583 119.111 27.761 119.451 17.6552 114.058C12.2616 111.162 7.66294 107.302 3.40487 102.987C0.339058 99.8642 0.282284 95.379 3.17777 92.4268C6.01648 89.5313 10.2746 89.361 13.5675 92.2565C16.4629 94.7545 19.2449 97.4797 22.4242 99.6371C29.4075 104.463 34.7443 103.952 40.7055 97.8771C44.9068 93.619 48.4268 88.7932 52.2307 84.1945C55.3533 80.4474 58.5894 76.8706 62.8475 74.4293C71.7043 69.2061 80.334 70.6255 88.6798 75.7919C94.3572 79.3119 98.445 84.4784 102.533 89.6448C105.031 92.7674 107.472 95.9468 110.311 98.7855C115.137 103.725 119.451 103.725 124.277 98.7287C129.5 93.3919 133.531 87.0332 138.811 81.6397C143.808 76.53 149.542 72.6693 156.809 71.5338C164.36 70.3416 170.605 72.8397 176.055 77.779C180.824 82.0371 184.458 87.2603 188.432 92.1997C190.419 94.6977 192.463 97.139 194.791 99.2965C200.298 104.349 204.84 104.633 211.028 100.318C214.037 98.2178 216.706 95.8332 219.317 93.3352C224.711 88.1119 230.218 89.2474 233.113 96.0603C233 97.0255 233 98.1042 233 99.1829Z" fill="#E0E0E0" fill-opacity="0.2"/>
-				</g>
-				<defs>
-				<clipPath id="clip0_119_2313">
-				<rect width="232.036" height="188.718" fill="white" transform="translate(0.963623 0.282227)"/>
-				</clipPath>
-				</defs>
-				</svg>
-		</div>
-		</div>
-		<ul class="features">
-			<li class="item orange">
-				<div class="icon">
-					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<g clip-path="url(#clip0_119_2215)">
-						<path d="M34.2874 37.1437C34.2874 37.6316 34.2874 38.072 34.2874 38.5123C34.2755 39.3811 33.6567 40.0119 32.8355 40C32.0381 39.9881 31.443 39.3573 31.4311 38.5123C31.4192 38.072 31.4311 37.6316 31.4311 37.1675C23.8024 37.1675 16.2214 37.1675 8.58078 37.1675C8.58078 37.584 8.58078 38.0125 8.58078 38.4409C8.56888 39.3573 7.98572 40 7.16453 40.0119C6.31955 40.0238 5.72449 39.3692 5.72449 38.429C5.72449 38.0244 5.72449 37.6316 5.72449 37.1556C5.34365 37.1556 4.97471 37.1556 4.61767 37.1556C1.79708 37.1437 0 35.3466 0 32.5498C0 23.2312 0 13.9244 0 4.60577C0 1.79708 1.79708 0 4.60577 0C14.8765 0 25.1354 0 35.4061 0C38.2029 0 40 1.79708 40 4.60577C40 13.9601 40 23.3264 40 32.6807C40 34.7991 38.7504 36.4772 36.7986 36.989C36.4058 37.0961 35.9774 37.108 35.5608 37.1318C35.1562 37.1675 34.7397 37.1437 34.2874 37.1437ZM37.1437 22.8384C37.1437 22.7075 37.1437 22.6361 37.1437 22.5647C37.1437 16.507 37.1437 10.4493 37.1437 4.39155C37.1437 3.41565 36.5486 2.85629 35.5251 2.85629C25.183 2.85629 14.8408 2.85629 4.49866 2.85629C3.40375 2.85629 2.85629 3.41565 2.85629 4.51056C2.85629 10.4612 2.85629 16.4118 2.85629 22.3624C2.85629 22.5171 2.85629 22.6718 2.85629 22.8384C14.3172 22.8384 25.7066 22.8384 37.1437 22.8384ZM2.85629 25.7304C2.85629 28.0631 2.85629 30.36 2.85629 32.645C2.85629 33.728 3.41565 34.2874 4.51056 34.2874C14.8408 34.2874 25.1592 34.2874 35.4894 34.2874C36.5844 34.2874 37.1437 33.7399 37.1437 32.645C37.1437 30.4909 37.1437 28.3249 37.1437 26.1708C37.1437 26.028 37.1318 25.8851 37.1199 25.7304C25.6947 25.7304 14.3053 25.7304 2.85629 25.7304Z" fill="#f19b3e"/>
-						<path d="M12.4011 11.2468C12.0083 12.0204 11.6632 12.6749 11.3419 13.3533C11.0324 14.0079 10.5326 14.3054 9.80661 14.2935C8.96162 14.2816 8.10473 14.2935 7.25974 14.2935C6.34335 14.2935 5.70068 13.6984 5.70068 12.8772C5.70068 12.0323 6.34335 11.4372 7.28355 11.4372C7.7715 11.4372 8.27135 11.4253 8.7593 11.4491C9.02113 11.461 9.15204 11.3658 9.27105 11.1278C10.0327 9.59251 10.7825 8.08105 11.5442 6.5696C11.9964 5.68891 13.0199 5.41518 13.7102 6.03404C13.9839 6.27207 14.1863 6.65291 14.2696 7.00994C14.8646 9.27117 15.4121 11.5324 16.0071 13.9007C16.1143 13.6746 16.1738 13.5437 16.2333 13.4009C16.5546 12.6035 16.864 11.7942 17.1973 10.9969C17.6614 9.89004 18.792 9.65201 19.637 10.4851C20.0417 10.8778 20.4225 11.2944 20.8509 11.7466C20.9462 11.5562 21.0057 11.4491 21.0533 11.3301C21.6602 9.81863 22.2672 8.29527 22.8742 6.77192C23.1003 6.18876 23.493 5.79602 24.1357 5.71271C24.8736 5.6175 25.4924 6.10545 25.7066 6.92664C26.1232 8.59281 26.5397 10.2709 26.9563 11.9489C27.1586 12.7344 27.349 13.5318 27.587 14.4482C27.8251 13.9722 28.0155 13.6032 28.2059 13.2343C28.3725 12.901 28.5391 12.5678 28.7058 12.2346C28.9795 11.699 29.4317 11.4134 30.0387 11.4134C30.967 11.4134 31.8834 11.4015 32.8117 11.4134C33.6567 11.4253 34.2755 12.0323 34.2874 12.8296C34.2993 13.6389 33.6567 14.2578 32.7998 14.2697C32.2761 14.2816 31.7525 14.2816 31.2407 14.2697C30.9789 14.2578 30.848 14.353 30.729 14.591C29.9792 16.1144 29.2294 17.6258 28.4558 19.1373C28.1583 19.7323 27.6108 20.0418 27.0158 19.9823C26.3969 19.9228 25.9328 19.4943 25.7423 18.8398C25.7304 18.7921 25.7304 18.7564 25.7185 18.7088C25.1473 16.4476 24.5879 14.1864 23.9929 11.8061C23.8977 12.0323 23.8263 12.1632 23.7667 12.2941C23.4454 13.0796 23.1479 13.865 22.8265 14.6505C22.3505 15.8168 21.2199 16.043 20.3273 15.1742C19.9346 14.7933 19.5537 14.3887 19.1372 13.9603C19.0539 14.1269 18.9944 14.234 18.9467 14.353C18.3279 15.9002 17.7209 17.4473 17.0902 18.9826C16.745 19.8395 15.9 20.1965 15.1384 19.8395C14.6742 19.6252 14.4243 19.2325 14.3053 18.7445C13.8054 16.7094 13.2937 14.6743 12.7819 12.6511C12.6629 12.2465 12.5439 11.818 12.4011 11.2468Z" fill="#f19b3e"/>
-						<path d="M29.991 31.431C29.0746 31.431 28.1464 31.431 27.23 31.431C26.3612 31.4191 25.7185 30.824 25.7185 30.0147C25.7185 29.1935 26.3493 28.5866 27.2181 28.5866C29.0746 28.5747 30.9312 28.5747 32.7997 28.5866C33.6685 28.5866 34.2993 29.2173 34.2874 30.0266C34.2755 30.824 33.6566 31.431 32.8116 31.4429C31.8714 31.4429 30.9312 31.431 29.991 31.431Z" fill="#f19b3e"/>
-						<path d="M8.5689 30.0033C8.5689 30.7769 7.92623 31.4196 7.15265 31.4315C6.35527 31.4315 5.7007 30.765 5.72451 29.9795C5.73641 29.206 6.39097 28.5752 7.16455 28.5752C7.93813 28.5871 8.5689 29.2298 8.5689 30.0033Z" fill="#f19b3e"/>
-						<path d="M12.8654 31.4315C12.0918 31.4434 11.4372 30.8007 11.4253 30.0271C11.4134 29.2298 12.068 28.5752 12.8654 28.5752C13.639 28.5752 14.2816 29.2298 14.2816 30.0033C14.2816 30.7769 13.639 31.4315 12.8654 31.4315Z" fill="#f19b3e"/>
-						</g>
-						<defs>
-						<clipPath id="clip0_119_2215">
-						<rect width="40" height="40" fill="white"/>
-						</clipPath>
-						</defs>
-					</svg>																			
-				</div>
-				<h5>Remote Chronic Patient Support</h5>
-				<p>The system utilizes easy-to-use web applications that enables clinical staff to view, track and analyse patient data collected from testing with various chronic disease testing devices integrated with the Afya Pap Mobile App. (i.e. smart glucose and BP monitors)</p>
-			</li>
-			<li class="item green">
-				<div class="icon">
-					<svg width="29" height="40" viewBox="0 0 29 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M5.63631 7.04483C5.63631 6.67112 5.78476 6.31271 6.04902 6.04846C6.31328 5.7842 6.67168 5.63574 7.0454 5.63574H21.1363C21.51 5.63574 21.8684 5.7842 22.1327 6.04846C22.3969 6.31271 22.5454 6.67112 22.5454 7.04483C22.5454 7.41855 22.3969 7.77695 22.1327 8.04121C21.8684 8.30547 21.51 8.45392 21.1363 8.45392H7.0454C6.67168 8.45392 6.31328 8.30547 6.04902 8.04121C5.78476 7.77695 5.63631 7.41855 5.63631 7.04483ZM5.63631 12.6812C5.63631 12.3075 5.78476 11.9491 6.04902 11.6848C6.31328 11.4206 6.67168 11.2721 7.0454 11.2721H21.1363C21.51 11.2721 21.8684 11.4206 22.1327 11.6848C22.3969 11.9491 22.5454 12.3075 22.5454 12.6812C22.5454 13.0549 22.3969 13.4133 22.1327 13.6776C21.8684 13.9418 21.51 14.0903 21.1363 14.0903H7.0454C6.67168 14.0903 6.31328 13.9418 6.04902 13.6776C5.78476 13.4133 5.63631 13.0549 5.63631 12.6812ZM7.0454 16.9085C6.67168 16.9085 6.31328 17.0569 6.04902 17.3212C5.78476 17.5854 5.63631 17.9438 5.63631 18.3176C5.63631 18.6913 5.78476 19.0497 6.04902 19.3139C6.31328 19.5782 6.67168 19.7266 7.0454 19.7266H21.1363C21.51 19.7266 21.8684 19.5782 22.1327 19.3139C22.3969 19.0497 22.5454 18.6913 22.5454 18.3176C22.5454 17.9438 22.3969 17.5854 22.1327 17.3212C21.8684 17.0569 21.51 16.9085 21.1363 16.9085H7.0454ZM5.63631 23.9539C5.63631 23.5802 5.78476 23.2218 6.04902 22.9575C6.31328 22.6933 6.67168 22.5448 7.0454 22.5448H12.6818C13.0555 22.5448 13.4139 22.6933 13.6781 22.9575C13.9424 23.2218 14.0909 23.5802 14.0909 23.9539C14.0909 24.3276 13.9424 24.686 13.6781 24.9503C13.4139 25.2146 13.0555 25.363 12.6818 25.363H7.0454C6.67168 25.363 6.31328 25.2146 6.04902 24.9503C5.78476 24.686 5.63631 24.3276 5.63631 23.9539Z" fill="#22B9B5"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M0 4.22727C0 3.10613 0.445372 2.03091 1.23814 1.23814C2.03091 0.445372 3.10613 0 4.22727 0H23.9545C25.0757 0 26.1509 0.445372 26.9437 1.23814C27.7364 2.03091 28.1818 3.10613 28.1818 4.22727V35.7727C28.1818 36.8939 27.7364 37.9691 26.9437 38.7619C26.1509 39.5546 25.0757 40 23.9545 40H4.22727C3.10613 40 2.03091 39.5546 1.23814 38.7619C0.445372 37.9691 0 36.8939 0 35.7727V4.22727ZM4.22727 2.81818H23.9545C24.3283 2.81818 24.6867 2.96664 24.9509 3.23089C25.2152 3.49515 25.3636 3.85356 25.3636 4.22727V35.7727C25.3636 36.1464 25.2152 36.5048 24.9509 36.7691C24.6867 37.0334 24.3283 37.1818 23.9545 37.1818H4.22727C3.85356 37.1818 3.49515 37.0334 3.2309 36.7691C2.96664 36.5048 2.81818 36.1464 2.81818 35.7727V4.22727C2.81818 3.85356 2.96664 3.49515 3.2309 3.23089C3.49515 2.96664 3.85356 2.81818 4.22727 2.81818Z" fill="#22B9B5"/>
-					</svg>																			
-				</div>
-				<h5>Direct to Patient Notes</h5>
-				<p>The caregiver dashboard provides a secure direct to patient notes communication channel, allowing clinical staff share personalised patients notes based on the comprehensive testing data collected shared seamlessly from Afya Pap Mobile App.</p>
-			</li>
-			<li class="item platform pink">
-				<div class="icon">
-					<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M39.5974 2.52258C39.8624 2.23823 40.0066 1.86214 39.9998 1.47354C39.9929 1.08494 39.8355 0.714166 39.5607 0.43934C39.2858 0.164514 38.9151 0.00709013 38.5265 0.000233694C38.1379 -0.00662274 37.7618 0.137624 37.4774 0.402584L33.4534 4.42658C31.8161 3.26641 29.8211 2.72278 27.8216 2.89188C25.822 3.06098 23.9467 3.93191 22.5274 5.35058L20.3914 7.48858C19.7356 8.14489 19.3672 9.03475 19.3672 9.96258C19.3672 10.8904 19.7356 11.7803 20.3914 12.4366L27.5614 19.6086C27.8864 19.9336 28.2723 20.1915 28.6969 20.3674C29.1216 20.5433 29.5768 20.6338 30.0364 20.6338C30.4961 20.6338 30.9512 20.5433 31.3759 20.3674C31.8006 20.1915 32.1864 19.9336 32.5114 19.6086L34.6474 17.4726C36.0664 16.0536 36.9377 14.1784 37.1072 12.1788C37.2766 10.1792 36.7333 8.18415 35.5734 6.54658L39.5974 2.52258ZM32.4274 7.47258L32.4714 7.51858L32.4774 7.52258L32.4814 7.52858L32.5274 7.57258C33.0384 8.08334 33.4438 8.68977 33.7203 9.35723C33.9969 10.0247 34.1392 10.7401 34.1392 11.4626C34.1392 12.1851 33.9969 12.9005 33.7203 13.5679C33.4438 14.2354 33.0384 14.8418 32.5274 15.3526L30.3914 17.4866C30.345 17.5331 30.2898 17.5701 30.2291 17.5953C30.1683 17.6205 30.1032 17.6335 30.0374 17.6335C29.9716 17.6335 29.9065 17.6205 29.8458 17.5953C29.785 17.5701 29.7299 17.5331 29.6834 17.4866L22.5114 10.3166C22.4649 10.2701 22.4279 10.215 22.4027 10.1542C22.3775 10.0935 22.3645 10.0284 22.3645 9.96258C22.3645 9.89682 22.3775 9.8317 22.4027 9.77095C22.4279 9.71021 22.4649 9.65503 22.5114 9.60858L24.6474 7.47258C25.1582 6.96159 25.7646 6.55623 26.4321 6.27967C27.0995 6.00311 27.8149 5.86076 28.5374 5.86076C29.2599 5.86076 29.9753 6.00311 30.6428 6.27967C31.3102 6.55623 31.9167 6.96159 32.4274 7.47258V7.47258ZM17.5974 18.5226C17.7448 18.3853 17.863 18.2197 17.945 18.0357C18.027 17.8517 18.071 17.653 18.0746 17.4516C18.0782 17.2502 18.0411 17.0502 17.9657 16.8634C17.8902 16.6766 17.7779 16.5069 17.6355 16.3645C17.4931 16.2221 17.3234 16.1098 17.1366 16.0343C16.9498 15.9589 16.7498 15.9218 16.5484 15.9254C16.347 15.929 16.1483 15.973 15.9643 16.055C15.7803 16.137 15.6147 16.2552 15.4774 16.4026L12.0374 19.8426L11.0974 18.9026C10.8162 18.6217 10.4349 18.4639 10.0374 18.4639C9.63992 18.4639 9.25867 18.6217 8.97742 18.9026L5.42742 22.4526C4.00844 23.8716 3.13714 25.7468 2.96767 27.7464C2.7982 29.7459 3.34149 31.741 4.50142 33.3786L0.477417 37.4026C0.330043 37.5399 0.211839 37.7055 0.129855 37.8895C0.0478708 38.0735 0.00378701 38.2721 0.000233444 38.4735C-0.00332013 38.6749 0.0337289 38.875 0.109171 39.0618C0.184613 39.2486 0.296902 39.4182 0.43934 39.5607C0.581777 39.7031 0.751445 39.8154 0.938222 39.8908C1.125 39.9663 1.32506 40.0033 1.52646 39.9998C1.72787 39.9962 1.92649 39.9521 2.11049 39.8701C2.29449 39.7882 2.46009 39.67 2.59742 39.5226L6.62142 35.4986C8.25898 36.6585 10.2541 37.2018 12.2536 37.0323C14.2532 36.8629 16.1284 35.9916 17.5474 34.5726L21.0974 31.0226C21.3783 30.7413 21.5361 30.3601 21.5361 29.9626C21.5361 29.5651 21.3783 29.1838 21.0974 28.9026L20.1574 27.9626L23.5974 24.5226C23.7448 24.3853 23.863 24.2197 23.945 24.0357C24.027 23.8517 24.071 23.653 24.0746 23.4516C24.0782 23.2502 24.0411 23.0502 23.9657 22.8634C23.8902 22.6766 23.7779 22.5069 23.6355 22.3645C23.4931 22.2221 23.3234 22.1098 23.1366 22.0343C22.9498 21.9589 22.7498 21.9218 22.5484 21.9254C22.347 21.929 22.1483 21.973 21.9643 22.055C21.7803 22.137 21.6147 22.2552 21.4774 22.4026L18.0374 25.8426L14.1574 21.9626L17.5974 18.5226V18.5226ZM10.9694 23.0166L10.9774 23.0226L10.9834 23.0306L16.9694 29.0166L16.9774 29.0226L16.9834 29.0306L17.9154 29.9626L15.4274 32.4526C14.9167 32.9636 14.3102 33.3689 13.6428 33.6455C12.9753 33.9221 12.2599 34.0644 11.5374 34.0644C10.8149 34.0644 10.0995 33.9221 9.43206 33.6455C8.7646 33.3689 8.15817 32.9636 7.64742 32.4526L7.54742 32.3526C7.03642 31.8418 6.63106 31.2354 6.3545 30.5679C6.07794 29.9005 5.93559 29.1851 5.93559 28.4626C5.93559 27.7401 6.07794 27.0247 6.3545 26.3572C6.63106 25.6898 7.03642 25.0833 7.54742 24.5726L10.0374 22.0866L10.9694 23.0186V23.0166Z" fill="#FF6A90"/>
-					</svg>												
-				</div>
-				<h5>Integrative with HMS</h5>
-				<p>The caregiver module can be integrated easily with any Hospital Management Systems. The module was designed to integrate, share records streams or store data in different data centres of various HMSs.</p>
-			</li>
-		</ul>
-	</section> 
-
-
-	<section class="section-container app-community">
-		<div class="app-community-image" style="background-image: url('images/caregiver-community.jpeg')"></div>
-		<!-- <img src="images/partner.jpg" alt="" srcset=""> -->
-		<div class="app-community-text">
-			<h3>A health partner you can trust for life</h3>
-			<p>Afya Pap mobile and web application are integrated with various devices for checking your health vitals as advised by your medical practitioners. Afya Pap is an ideal, accurate and reliable monitoring systems that gives you adequate glycaemic control. Afya Pap is linked to various health vitals measuring devices i.e. Blood Glucose Meter and Blood Pressure Meter. The reading are then stored on your phone and you get an action item based the readings.</p>
-		</div>
-	</section>
-
-	<section class="impact-section">
-		<div class="impact-video">
-			<iframe src="https://www.youtube.com/embed/EBAqyREaGc8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>                                                            
-		</div>
-		<div class="impact-text">
-			<h3>Afya Pap has helped countless patients manage their health</h3>
-			<p>Keeping healthy isn't always easy to do alone. Access our Doctor's via a voice call or SMS to receive ongoing support when you need it most.</p>
-			<a href="">Learn more</a>
-		</div>
-	</section>
-
-
-
-
-	<section class="playstore">
-		<div class="playstore-text">
-			<h2>Ready to get started?</h2>
-			<p>Sign up for Caregiver now</p>
-			<button  onclick="location.href='https://caregiver.afyapap.com/sign-up/patient'" class="button request-button">Sign up</button>
-		</div>
-		<div class="playstore-screen caregiver-scren">
-			<img src="./images/web.svg" alt="">
-		</div>
-		<div class="playstore-overlay-background">
-
-		</div>
-	</section>
-
-	<footer>
-		<div class="footer-content">
-			<div class="company">
-				<div class="logo">
-					<svg width="260" height="47" viewBox="0 0 260 47" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M166.922 25.8479C166.922 20.6302 170.819 17.0664 175.835 17.0664C179.272 17.0664 181.387 18.8488 182.66 20.8852L180.114 22.1834C179.299 20.7836 177.668 19.7145 175.835 19.7145C172.473 19.7145 169.978 22.285 169.978 25.8479C169.978 29.4107 172.472 31.9831 175.835 31.9831C176.701 31.9782 177.551 31.7478 178.302 31.3146C179.052 30.8814 179.676 30.2603 180.114 29.5124L182.66 30.8106C181.362 32.847 179.273 34.6285 175.835 34.6285C170.819 34.6285 166.922 31.0647 166.922 25.8479ZM187.091 34.3226H190.071V17.3464H187.091V34.3226ZM205.681 22.6657C205.681 21.0367 204.459 19.9677 202.777 19.9677H198.702V25.3637H202.777C204.459 25.3637 205.681 24.2956 205.681 22.6657ZM205.426 34.3226L201.656 27.986H198.702V34.3226H195.723V17.3464H203.185C206.547 17.3464 208.737 19.5362 208.737 22.6657C208.737 25.6945 206.75 27.3235 204.713 27.6552L208.863 34.3226H205.426ZM212.989 25.8479C212.989 20.6302 216.886 17.0664 221.902 17.0664C225.34 17.0664 227.455 18.8488 228.727 20.8852L226.181 22.1834C225.366 20.7836 223.736 19.7145 221.902 19.7145C218.54 19.7145 216.045 22.285 216.045 25.8479C216.045 29.4107 218.54 31.9831 221.902 31.9831C222.768 31.9784 223.618 31.7481 224.369 31.3148C225.119 30.8816 225.744 30.2604 226.181 29.5124L228.727 30.8106C227.428 32.847 225.34 34.6285 221.902 34.6285C216.886 34.6285 212.989 31.0647 212.989 25.8479ZM233.158 34.3226V17.3464H236.138V31.7013H243.625V34.3226H233.158ZM248.362 34.3226V17.3464H260V19.9677H251.342V24.3714H259.822V26.9927H251.341V31.7013H260V34.3226H248.362Z" fill="#15486B"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M56.2242 29.0967C56.2242 28.254 55.6116 27.5656 54.5407 27.5656H50.1259V30.6258H54.5407C55.5866 30.6258 56.2242 30.0132 56.2242 29.0957V29.0967ZM55.8934 22.4135C55.8934 21.5977 55.2798 21.0109 54.3873 21.0109H50.1259V23.842H54.3864C55.2799 23.842 55.8924 23.2553 55.8924 22.4135H55.8934ZM45.7361 34.3236V17.3132H55.3824C58.7503 17.3132 60.358 19.5067 60.358 21.6494C60.358 23.7653 59.0571 25.1938 57.4484 25.5504C59.2603 25.8322 60.6897 27.5656 60.6897 29.7083C60.6897 32.1827 59.0312 34.3245 55.6882 34.3245H45.7361V34.3236ZM72.4797 21.6494L70.3111 28.0498H74.6483L72.4797 21.6485V21.6494ZM76.6893 34.3236L75.8485 31.8751H69.1367L68.295 34.3236H63.3194L69.7244 17.3132H75.235L81.6659 34.3236H76.6903H76.6893ZM97.003 25.8313C97.003 23.0511 95.192 20.9102 92.3849 20.9102C89.552 20.9102 87.7401 23.0511 87.7401 25.8313C87.7401 28.5857 89.552 30.7533 92.3849 30.7533C95.1911 30.7533 97.003 28.5857 97.003 25.8313ZM83.2755 25.8313C83.2755 20.6543 87.1783 17.0332 92.3849 17.0332C97.5897 17.0332 101.468 20.6543 101.468 25.8313C101.468 31.0093 97.5897 34.6304 92.3849 34.6304C87.1783 34.6304 83.2745 31.0084 83.2745 25.8313H83.2755ZM116.218 29.0967C116.218 28.254 115.605 27.5656 114.535 27.5656H110.12V30.6258H114.535C115.58 30.6258 116.218 30.0132 116.218 29.0957V29.0967ZM115.887 22.4135C115.887 21.5977 115.275 21.0109 114.381 21.0109H110.12V23.842H114.381C115.275 23.842 115.887 23.2553 115.887 22.4135ZM105.73 34.3236V17.3132H115.376C118.745 17.3132 120.353 19.5067 120.353 21.6494C120.353 23.7653 119.051 25.1938 117.442 25.5504C119.254 25.8322 120.684 27.5656 120.684 29.7083C120.684 32.1827 119.025 34.3245 115.682 34.3245H105.731L105.73 34.3236ZM132.474 21.6494L130.305 28.0498H134.643L132.474 21.6485V21.6494ZM136.684 34.3236L135.843 31.8751H129.132L128.289 34.3236H123.313L129.718 17.3132H135.23L141.661 34.3236H136.684ZM155.441 29.0967C155.441 28.254 154.827 27.5656 153.756 27.5656H149.342V30.6258H153.756C154.802 30.6258 155.441 30.0132 155.441 29.0957V29.0967ZM155.109 22.4135C155.109 21.5977 154.497 21.0109 153.603 21.0109H149.342V23.842H153.603C154.497 23.842 155.109 23.2553 155.109 22.4135ZM144.952 34.3236V17.3132H154.598C157.967 17.3132 159.575 19.5067 159.575 21.6494C159.575 23.7653 158.273 25.1938 156.664 25.5504C158.476 25.8322 159.906 27.5656 159.906 29.7083C159.906 32.1827 158.247 34.3245 154.904 34.3245H144.953L144.952 34.3236Z" fill="#F19B3E"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M23.1466 16.2538C23.3526 14.2008 25.8261 12.7021 25.8982 12.0368C25.9813 11.2792 25.3457 10.4356 24.4605 10.4568C23.689 10.4753 21.3005 13.3452 20.2943 13.0569C19.289 12.7705 19.7196 9.25934 19.2409 8.68647C18.9757 8.36677 18.6477 8.21524 18.0472 8.20508C17.4456 8.21617 17.1176 8.36677 16.8524 8.68555C16.3738 9.26026 16.8044 12.7705 15.7991 13.0569C14.792 13.3452 12.4044 10.4753 11.632 10.4568C10.7477 10.4356 10.113 11.2792 10.1961 12.0368C10.2691 12.7021 12.7407 14.2008 12.9468 16.2538C13.1528 18.3078 8.81384 27.3647 8.81384 42.432C8.81384 43.9076 14.5591 45.1697 18.0472 45.1697C21.5342 45.1697 27.2814 43.9076 27.2814 42.432C27.2814 27.3647 22.9405 18.3069 23.1466 16.2538Z" fill="#15486B"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M18.0472 46.3316C15.6765 46.3381 13.328 45.8746 11.1376 44.9677C8.94723 44.0609 6.95838 42.7287 5.28614 41.0482C3.6053 39.3777 2.27261 37.3903 1.36523 35.2011C0.457862 33.0119 -0.00615164 30.6644 6.65952e-05 28.2946C-0.00639495 25.9247 0.457414 23.5771 1.36463 21.3877C2.27185 19.1983 3.60444 17.2107 5.28522 15.54C5.34589 15.4793 5.41791 15.4312 5.49718 15.3984C5.57645 15.3655 5.66141 15.3486 5.74721 15.3486C5.83301 15.3486 5.91797 15.3655 5.99723 15.3984C6.0765 15.4312 6.14853 15.4793 6.2092 15.54C6.26987 15.6007 6.31799 15.6727 6.35083 15.752C6.38366 15.8312 6.40056 15.9162 6.40056 16.002C6.40056 16.0878 6.38366 16.1727 6.35083 16.252C6.31799 16.3313 6.26987 16.4033 6.2092 16.464C-0.316858 22.9873 -0.316858 33.601 6.2092 40.1252C7.76024 41.6841 9.60506 42.9199 11.6369 43.7612C13.6687 44.6024 15.8472 45.0323 18.0463 45.026C22.5183 45.026 26.7206 43.2861 29.8824 40.1252C36.4094 33.601 36.4094 22.9873 29.8824 16.464C29.8218 16.4033 29.7736 16.3313 29.7408 16.252C29.708 16.1727 29.6911 16.0878 29.6911 16.002C29.6911 15.9162 29.708 15.8312 29.7408 15.752C29.7736 15.6727 29.8218 15.6007 29.8824 15.54C29.9431 15.4793 30.0151 15.4312 30.0944 15.3984C30.1737 15.3655 30.2586 15.3486 30.3444 15.3486C30.4302 15.3486 30.5152 15.3655 30.5944 15.3984C30.6737 15.4312 30.7457 15.4793 30.8064 15.54C32.4874 17.2105 33.8202 19.1981 34.7274 21.3875C35.6347 23.577 36.0983 25.9247 36.0916 28.2946C36.0984 30.6644 35.6347 33.012 34.7275 35.2012C33.8202 37.3905 32.4875 39.3779 30.8064 41.0482C29.1343 42.7286 27.1456 44.0607 24.9554 44.9676C22.7651 45.8744 20.4168 46.338 18.0463 46.3316" fill="#15486B"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M18.8965 7.0873C18.8965 7.0873 15.2792 7.55113 13.337 5.60801C11.3966 3.66488 11.8669 0.048434 11.8669 0.048434C11.8669 0.048434 15.4852 -0.415403 17.4265 1.52772C19.3668 3.4727 18.8965 7.0873 18.8965 7.0873Z" fill="#F19B3E"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M24.2288 0.0592059C24.2288 0.0592059 24.6926 3.67565 22.7486 5.61601C20.8045 7.55636 17.1862 7.08513 17.1862 7.08513C17.1862 7.08513 16.7224 3.46961 18.6664 1.52925C20.6123 -0.411099 24.2288 0.0601299 24.2288 0.0601299" fill="#1F598A"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M10.2084 9.68985C10.2084 9.68985 8.75032 11.779 6.83214 11.8723C4.91397 11.9638 3.26282 10.0234 3.26282 10.0234C3.26282 10.0234 4.72085 7.93337 6.63903 7.84005C8.55721 7.74857 10.2084 9.68985 10.2084 9.68985Z" fill="#F19B3E"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M9.07065 3.63184C9.07065 3.63184 11.1616 5.08987 11.2549 7.0062C11.3464 8.92346 9.40421 10.5746 9.40421 10.5746C9.40421 10.5746 7.31417 9.11749 7.22085 7.20024C7.12845 5.28298 9.07065 3.63276 9.07065 3.63276" fill="#1F598A"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M26.8141 10.6587C26.8141 10.6587 24.7222 9.20158 24.6298 7.28433C24.5374 5.36707 26.4796 3.71777 26.4796 3.71777C26.4796 3.71777 28.5705 5.17396 28.6629 7.09122C28.7553 9.00847 26.8131 10.6587 26.8131 10.6587" fill="#F19B3E"/>
-						<path fill-rule="evenodd" clip-rule="evenodd" d="M32.8742 9.522C32.8742 9.522 31.4153 11.6111 29.498 11.7044C27.5799 11.7968 25.9287 9.85556 25.9287 9.85556C25.9287 9.85556 27.3858 7.76552 29.304 7.67312C31.2231 7.58072 32.8742 9.52108 32.8742 9.52108" fill="#1F598A"/>
-					</svg>						
-				</div>
-				<ul class="footer-nav">
-					<li><span>Want to join Caregiver? </span><a href="https://caregiver.afyapap.com/sign-up/patient">Sign Up</a></li>
-					<li><span>Already a member? </span><a href="https://caregiver.afyapap.com/">Sign In</a></li>
 				</ul>
-				<ul class="social-links">
-					<li class="social-link">
-						<a href="https://www.facebook.com/AfyaPap/">
-							<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M30.0781 3.86133H4.92188C4.31689 3.86133 3.82812 4.3501 3.82812 4.95508V30.1113C3.82812 30.7163 4.31689 31.2051 4.92188 31.2051H30.0781C30.6831 31.2051 31.1719 30.7163 31.1719 30.1113V4.95508C31.1719 4.3501 30.6831 3.86133 30.0781 3.86133ZM26.9199 11.8423H24.7358C23.0234 11.8423 22.6919 12.6558 22.6919 13.8521V16.4873H26.7798L26.2466 20.6128H22.6919V31.2051H18.4297V20.6162H14.8647V16.4873H18.4297V13.4453C18.4297 9.91455 20.5864 7.99023 23.7378 7.99023C25.2485 7.99023 26.5439 8.10303 26.9233 8.1543V11.8423H26.9199Z" fill="#053E5B"/>
-							</svg>								
-						</a>
+			</section>
+
+			<section class="section-container caregiver-features">
+				<div>
+					<h3 class="text-align-left">
+						Keep track of your chronic patients with Afya Pap
+						Caregiver Module.
+					</h3>
+					<div class="screen">
+						<svg
+							class="dots-svg"
+							width="233"
+							height="233"
+							viewBox="0 0 233 233"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<circle
+								cx="7.82644"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="7.82644"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="7.82644"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="7.82644"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="7.82644"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="7.82644"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="7.82644"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="7.82644"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="38.9723"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="70.118"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="101.264"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="132.409"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="163.555"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="194.701"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="7.00772"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="38.1449"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="69.2809"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="100.45"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="131.586"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="162.724"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="193.859"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+							<circle
+								cx="225.847"
+								cy="225.028"
+								r="7.00772"
+								fill="#E0E0E0"
+								fill-opacity="0.5"
+							/>
+						</svg>
+						<img src="./images/web.svg" alt="" />
+						<svg
+							class="waves-svg"
+							width="233"
+							height="189"
+							viewBox="0 0 233 189"
+							fill="none"
+							xmlns="http://www.w3.org/2000/svg"
+						>
+							<g clip-path="url(#clip0_119_2313)">
+								<path
+									d="M233 170.321C227.209 178.497 219.658 184.571 210.12 187.751C200.582 190.873 192.35 187.921 185.083 181.506C180.313 177.248 176.623 172.081 172.649 167.142C170.548 164.53 168.504 161.918 166.063 159.648C162.486 156.355 159.648 156.014 155.333 158.171C151.87 159.875 149.315 162.657 146.873 165.552C143.013 170.094 139.55 174.977 135.462 179.291C124.277 191.044 110.254 191.044 99.0128 179.405C95.0953 175.317 91.7457 170.718 88.1689 166.347C85.6141 163.281 82.9457 160.272 79.3121 158.342C74.7702 155.957 71.7044 156.298 67.9573 159.818C63.3585 164.133 59.7818 169.299 55.7508 174.068C52.4011 178.099 48.8243 181.846 44.3392 184.628C35.6527 189.965 26.7959 189.738 17.8824 185.082C12.2617 182.13 7.49267 178.099 3.12106 173.557C0.168797 170.491 0.225571 166.12 3.12106 163.168C5.903 160.329 10.1611 160.215 13.3404 162.884C16.3495 165.438 19.1314 168.164 22.3675 170.378C29.4075 175.147 34.6875 174.693 40.6488 168.561C44.9069 164.189 48.5405 159.25 52.4579 154.538C55.5237 150.904 58.8166 147.384 62.9611 145C71.7044 140.004 80.2205 141.423 88.396 146.419C93.9599 149.826 97.9908 154.822 102.022 159.875C104.633 163.111 107.131 166.404 110.027 169.413C114.853 174.409 119.395 174.352 124.221 169.356C129.444 163.962 133.475 157.66 138.755 152.267C142.388 148.577 146.476 145.397 151.359 143.637C160.443 140.287 168.675 141.877 175.885 148.463C180.427 152.607 184.004 157.604 187.808 162.373C189.965 165.098 192.179 167.823 194.734 170.151C200.184 175.09 204.954 175.317 211.028 171.059C213.924 169.015 216.535 166.631 219.147 164.189C224.654 158.909 229.821 159.875 233 166.744C233 167.88 233 169.129 233 170.321Z"
+									fill="#E0E0E0"
+									fill-opacity="0.2"
+								/>
+								<path
+									d="M233 28.8963C228.117 35.4254 222.043 40.6486 214.719 44.2822C204.329 49.4486 193.882 47.8022 185.253 39.9105C180.257 35.3686 176.339 29.8615 172.138 24.6383C170.548 22.7079 168.959 20.7776 167.255 18.9608C162.997 14.3053 159.25 13.7944 153.232 17.7118C150.564 19.4718 148.463 21.8563 146.419 24.3544C142.786 28.726 139.493 33.3247 135.575 37.4125C124.164 49.4486 110.027 49.3918 98.6721 37.2989C94.7546 33.0976 91.405 28.4421 87.6579 24.0705C85.1598 21.1183 82.605 18.2795 79.0282 16.5195C74.7133 14.3621 71.6475 14.7028 68.0707 17.9957C63.6991 21.9699 60.2927 26.8525 56.6024 31.3944C52.9688 35.766 49.2217 39.9673 44.2823 42.9763C35.5959 48.3131 26.7391 48.086 17.8255 43.4305C12.2049 40.4783 7.43586 36.4473 3.06424 31.9054C0.168752 28.8963 0.168752 24.5815 2.89392 21.686C5.67585 18.7337 10.1042 18.5066 13.2836 21.2886C16.1791 23.7866 18.961 26.455 22.1404 28.6692C29.2939 33.6086 34.7443 33.0976 40.7623 26.7957C45.134 22.197 48.8811 17.0873 53.0256 12.2615C56.7727 7.88985 60.8604 3.80211 66.3675 1.75823C74.2024 -1.13725 81.5262 0.565976 88.3391 4.82404C93.3921 8.0034 97.2527 12.4318 101 17.0305C103.952 20.7208 106.791 24.5247 110.197 27.9312C114.966 32.757 119.281 32.757 124.05 27.9312C128.081 23.8434 131.431 19.1312 135.064 14.7595C138.584 10.5582 142.331 6.64082 147.214 4.0292C158.966 -2.32951 169.47 -0.512735 178.553 9.59308C183.266 14.8731 187.637 20.4937 192.179 25.9441C192.974 26.8525 193.826 27.7608 194.677 28.5557C200.128 33.5518 204.84 33.7789 210.915 29.4641C213.867 27.3634 216.819 25.1492 219.147 22.4241C223.008 17.8821 230.559 17.9389 232.886 25.3763C233 26.5118 233 27.7041 233 28.8963Z"
+									fill="#E0E0E0"
+									fill-opacity="0.2"
+								/>
+								<path
+									d="M233 99.1829C229.821 105.087 224.484 108.835 219.204 112.582C215.513 115.25 211.369 117.067 206.827 117.805C198.424 119.224 191.441 116.215 185.253 110.822C180.654 106.791 177.191 101.851 173.387 97.1958C171.343 94.6977 169.356 92.1429 167.085 89.7584C162.77 85.2165 158.626 84.8758 153.402 88.4526C150.848 90.2126 148.747 92.4836 146.76 94.8681C143.126 99.2965 139.606 103.838 135.746 108.096C124.504 120.36 110.14 120.303 98.7288 108.21C94.6979 103.895 91.2346 99.1261 87.4875 94.641C85.103 91.8023 82.5482 89.1339 79.1985 87.4306C74.7701 85.2164 71.8746 85.5571 68.2411 88.85C65.6862 91.121 63.5856 93.7894 61.4281 96.401C56.8862 101.965 52.6849 107.813 46.8939 112.127C37.583 119.111 27.761 119.451 17.6552 114.058C12.2616 111.162 7.66294 107.302 3.40487 102.987C0.339058 99.8642 0.282284 95.379 3.17777 92.4268C6.01648 89.5313 10.2746 89.361 13.5675 92.2565C16.4629 94.7545 19.2449 97.4797 22.4242 99.6371C29.4075 104.463 34.7443 103.952 40.7055 97.8771C44.9068 93.619 48.4268 88.7932 52.2307 84.1945C55.3533 80.4474 58.5894 76.8706 62.8475 74.4293C71.7043 69.2061 80.334 70.6255 88.6798 75.7919C94.3572 79.3119 98.445 84.4784 102.533 89.6448C105.031 92.7674 107.472 95.9468 110.311 98.7855C115.137 103.725 119.451 103.725 124.277 98.7287C129.5 93.3919 133.531 87.0332 138.811 81.6397C143.808 76.53 149.542 72.6693 156.809 71.5338C164.36 70.3416 170.605 72.8397 176.055 77.779C180.824 82.0371 184.458 87.2603 188.432 92.1997C190.419 94.6977 192.463 97.139 194.791 99.2965C200.298 104.349 204.84 104.633 211.028 100.318C214.037 98.2178 216.706 95.8332 219.317 93.3352C224.711 88.1119 230.218 89.2474 233.113 96.0603C233 97.0255 233 98.1042 233 99.1829Z"
+									fill="#E0E0E0"
+									fill-opacity="0.2"
+								/>
+							</g>
+							<defs>
+								<clipPath id="clip0_119_2313">
+									<rect
+										width="232.036"
+										height="188.718"
+										fill="white"
+										transform="translate(0.963623 0.282227)"
+									/>
+								</clipPath>
+							</defs>
+						</svg>
+					</div>
+				</div>
+				<ul class="features">
+					<li class="item orange">
+						<div class="icon">
+							<svg
+								width="40"
+								height="40"
+								viewBox="0 0 40 40"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<g clip-path="url(#clip0_119_2215)">
+									<path
+										d="M34.2874 37.1437C34.2874 37.6316 34.2874 38.072 34.2874 38.5123C34.2755 39.3811 33.6567 40.0119 32.8355 40C32.0381 39.9881 31.443 39.3573 31.4311 38.5123C31.4192 38.072 31.4311 37.6316 31.4311 37.1675C23.8024 37.1675 16.2214 37.1675 8.58078 37.1675C8.58078 37.584 8.58078 38.0125 8.58078 38.4409C8.56888 39.3573 7.98572 40 7.16453 40.0119C6.31955 40.0238 5.72449 39.3692 5.72449 38.429C5.72449 38.0244 5.72449 37.6316 5.72449 37.1556C5.34365 37.1556 4.97471 37.1556 4.61767 37.1556C1.79708 37.1437 0 35.3466 0 32.5498C0 23.2312 0 13.9244 0 4.60577C0 1.79708 1.79708 0 4.60577 0C14.8765 0 25.1354 0 35.4061 0C38.2029 0 40 1.79708 40 4.60577C40 13.9601 40 23.3264 40 32.6807C40 34.7991 38.7504 36.4772 36.7986 36.989C36.4058 37.0961 35.9774 37.108 35.5608 37.1318C35.1562 37.1675 34.7397 37.1437 34.2874 37.1437ZM37.1437 22.8384C37.1437 22.7075 37.1437 22.6361 37.1437 22.5647C37.1437 16.507 37.1437 10.4493 37.1437 4.39155C37.1437 3.41565 36.5486 2.85629 35.5251 2.85629C25.183 2.85629 14.8408 2.85629 4.49866 2.85629C3.40375 2.85629 2.85629 3.41565 2.85629 4.51056C2.85629 10.4612 2.85629 16.4118 2.85629 22.3624C2.85629 22.5171 2.85629 22.6718 2.85629 22.8384C14.3172 22.8384 25.7066 22.8384 37.1437 22.8384ZM2.85629 25.7304C2.85629 28.0631 2.85629 30.36 2.85629 32.645C2.85629 33.728 3.41565 34.2874 4.51056 34.2874C14.8408 34.2874 25.1592 34.2874 35.4894 34.2874C36.5844 34.2874 37.1437 33.7399 37.1437 32.645C37.1437 30.4909 37.1437 28.3249 37.1437 26.1708C37.1437 26.028 37.1318 25.8851 37.1199 25.7304C25.6947 25.7304 14.3053 25.7304 2.85629 25.7304Z"
+										fill="#f19b3e"
+									/>
+									<path
+										d="M12.4011 11.2468C12.0083 12.0204 11.6632 12.6749 11.3419 13.3533C11.0324 14.0079 10.5326 14.3054 9.80661 14.2935C8.96162 14.2816 8.10473 14.2935 7.25974 14.2935C6.34335 14.2935 5.70068 13.6984 5.70068 12.8772C5.70068 12.0323 6.34335 11.4372 7.28355 11.4372C7.7715 11.4372 8.27135 11.4253 8.7593 11.4491C9.02113 11.461 9.15204 11.3658 9.27105 11.1278C10.0327 9.59251 10.7825 8.08105 11.5442 6.5696C11.9964 5.68891 13.0199 5.41518 13.7102 6.03404C13.9839 6.27207 14.1863 6.65291 14.2696 7.00994C14.8646 9.27117 15.4121 11.5324 16.0071 13.9007C16.1143 13.6746 16.1738 13.5437 16.2333 13.4009C16.5546 12.6035 16.864 11.7942 17.1973 10.9969C17.6614 9.89004 18.792 9.65201 19.637 10.4851C20.0417 10.8778 20.4225 11.2944 20.8509 11.7466C20.9462 11.5562 21.0057 11.4491 21.0533 11.3301C21.6602 9.81863 22.2672 8.29527 22.8742 6.77192C23.1003 6.18876 23.493 5.79602 24.1357 5.71271C24.8736 5.6175 25.4924 6.10545 25.7066 6.92664C26.1232 8.59281 26.5397 10.2709 26.9563 11.9489C27.1586 12.7344 27.349 13.5318 27.587 14.4482C27.8251 13.9722 28.0155 13.6032 28.2059 13.2343C28.3725 12.901 28.5391 12.5678 28.7058 12.2346C28.9795 11.699 29.4317 11.4134 30.0387 11.4134C30.967 11.4134 31.8834 11.4015 32.8117 11.4134C33.6567 11.4253 34.2755 12.0323 34.2874 12.8296C34.2993 13.6389 33.6567 14.2578 32.7998 14.2697C32.2761 14.2816 31.7525 14.2816 31.2407 14.2697C30.9789 14.2578 30.848 14.353 30.729 14.591C29.9792 16.1144 29.2294 17.6258 28.4558 19.1373C28.1583 19.7323 27.6108 20.0418 27.0158 19.9823C26.3969 19.9228 25.9328 19.4943 25.7423 18.8398C25.7304 18.7921 25.7304 18.7564 25.7185 18.7088C25.1473 16.4476 24.5879 14.1864 23.9929 11.8061C23.8977 12.0323 23.8263 12.1632 23.7667 12.2941C23.4454 13.0796 23.1479 13.865 22.8265 14.6505C22.3505 15.8168 21.2199 16.043 20.3273 15.1742C19.9346 14.7933 19.5537 14.3887 19.1372 13.9603C19.0539 14.1269 18.9944 14.234 18.9467 14.353C18.3279 15.9002 17.7209 17.4473 17.0902 18.9826C16.745 19.8395 15.9 20.1965 15.1384 19.8395C14.6742 19.6252 14.4243 19.2325 14.3053 18.7445C13.8054 16.7094 13.2937 14.6743 12.7819 12.6511C12.6629 12.2465 12.5439 11.818 12.4011 11.2468Z"
+										fill="#f19b3e"
+									/>
+									<path
+										d="M29.991 31.431C29.0746 31.431 28.1464 31.431 27.23 31.431C26.3612 31.4191 25.7185 30.824 25.7185 30.0147C25.7185 29.1935 26.3493 28.5866 27.2181 28.5866C29.0746 28.5747 30.9312 28.5747 32.7997 28.5866C33.6685 28.5866 34.2993 29.2173 34.2874 30.0266C34.2755 30.824 33.6566 31.431 32.8116 31.4429C31.8714 31.4429 30.9312 31.431 29.991 31.431Z"
+										fill="#f19b3e"
+									/>
+									<path
+										d="M8.5689 30.0033C8.5689 30.7769 7.92623 31.4196 7.15265 31.4315C6.35527 31.4315 5.7007 30.765 5.72451 29.9795C5.73641 29.206 6.39097 28.5752 7.16455 28.5752C7.93813 28.5871 8.5689 29.2298 8.5689 30.0033Z"
+										fill="#f19b3e"
+									/>
+									<path
+										d="M12.8654 31.4315C12.0918 31.4434 11.4372 30.8007 11.4253 30.0271C11.4134 29.2298 12.068 28.5752 12.8654 28.5752C13.639 28.5752 14.2816 29.2298 14.2816 30.0033C14.2816 30.7769 13.639 31.4315 12.8654 31.4315Z"
+										fill="#f19b3e"
+									/>
+								</g>
+								<defs>
+									<clipPath id="clip0_119_2215">
+										<rect
+											width="40"
+											height="40"
+											fill="white"
+										/>
+									</clipPath>
+								</defs>
+							</svg>
+						</div>
+						<h5>Remote Chronic Patient Support</h5>
+						<p>
+							The system utilizes easy-to-use web applications
+							that enables clinical staff to view, track and
+							analyse patient data collected from testing with
+							various chronic disease testing devices integrated
+							with the Afya Pap Mobile App. (i.e. smart glucose
+							and BP monitors)
+						</p>
 					</li>
-					<li class="social-link">
-						<a href="https://twitter.com/Afya_Pap">	
-							<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M31.7187 8.72511C30.6728 9.17628 29.5347 9.50099 28.3623 9.62746C29.5795 8.90434 30.491 7.76193 30.9258 6.41456C29.7836 7.09402 28.5324 7.57047 27.2275 7.82277C26.6822 7.23975 26.0226 6.7753 25.2899 6.45834C24.5572 6.14138 23.7671 5.97872 22.9687 5.98048C19.7388 5.98048 17.1411 8.59865 17.1411 11.8115C17.1411 12.2627 17.1958 12.7139 17.2847 13.148C12.4482 12.895 8.13477 10.5845 5.26709 7.04689C4.74457 7.93937 4.47075 8.95557 4.47412 9.98976C4.47412 12.0132 5.50293 13.7974 7.07178 14.8467C6.14723 14.8103 5.24434 14.5562 4.43652 14.105V14.1768C4.43652 17.0103 6.43945 19.3584 9.10889 19.8985C8.60767 20.0286 8.09206 20.0952 7.57422 20.0967C7.19482 20.0967 6.83594 20.0591 6.47363 20.0078C7.21191 22.3184 9.36182 23.9966 11.9219 24.0513C9.91894 25.6201 7.41016 26.543 4.68604 26.543C4.19727 26.543 3.74609 26.5259 3.27783 26.4712C5.86182 28.1289 8.92773 29.086 12.2295 29.086C22.9482 29.086 28.8135 20.2061 28.8135 12.4985C28.8135 12.2456 28.8135 11.9927 28.7964 11.7398C29.9311 10.9092 30.9258 9.88039 31.7187 8.72511Z" fill="#053E5B"/>
-							</svg>														
-						</a>
+					<li class="item green">
+						<div class="icon">
+							<svg
+								width="29"
+								height="40"
+								viewBox="0 0 29 40"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M5.63631 7.04483C5.63631 6.67112 5.78476 6.31271 6.04902 6.04846C6.31328 5.7842 6.67168 5.63574 7.0454 5.63574H21.1363C21.51 5.63574 21.8684 5.7842 22.1327 6.04846C22.3969 6.31271 22.5454 6.67112 22.5454 7.04483C22.5454 7.41855 22.3969 7.77695 22.1327 8.04121C21.8684 8.30547 21.51 8.45392 21.1363 8.45392H7.0454C6.67168 8.45392 6.31328 8.30547 6.04902 8.04121C5.78476 7.77695 5.63631 7.41855 5.63631 7.04483ZM5.63631 12.6812C5.63631 12.3075 5.78476 11.9491 6.04902 11.6848C6.31328 11.4206 6.67168 11.2721 7.0454 11.2721H21.1363C21.51 11.2721 21.8684 11.4206 22.1327 11.6848C22.3969 11.9491 22.5454 12.3075 22.5454 12.6812C22.5454 13.0549 22.3969 13.4133 22.1327 13.6776C21.8684 13.9418 21.51 14.0903 21.1363 14.0903H7.0454C6.67168 14.0903 6.31328 13.9418 6.04902 13.6776C5.78476 13.4133 5.63631 13.0549 5.63631 12.6812ZM7.0454 16.9085C6.67168 16.9085 6.31328 17.0569 6.04902 17.3212C5.78476 17.5854 5.63631 17.9438 5.63631 18.3176C5.63631 18.6913 5.78476 19.0497 6.04902 19.3139C6.31328 19.5782 6.67168 19.7266 7.0454 19.7266H21.1363C21.51 19.7266 21.8684 19.5782 22.1327 19.3139C22.3969 19.0497 22.5454 18.6913 22.5454 18.3176C22.5454 17.9438 22.3969 17.5854 22.1327 17.3212C21.8684 17.0569 21.51 16.9085 21.1363 16.9085H7.0454ZM5.63631 23.9539C5.63631 23.5802 5.78476 23.2218 6.04902 22.9575C6.31328 22.6933 6.67168 22.5448 7.0454 22.5448H12.6818C13.0555 22.5448 13.4139 22.6933 13.6781 22.9575C13.9424 23.2218 14.0909 23.5802 14.0909 23.9539C14.0909 24.3276 13.9424 24.686 13.6781 24.9503C13.4139 25.2146 13.0555 25.363 12.6818 25.363H7.0454C6.67168 25.363 6.31328 25.2146 6.04902 24.9503C5.78476 24.686 5.63631 24.3276 5.63631 23.9539Z"
+									fill="#22B9B5"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M0 4.22727C0 3.10613 0.445372 2.03091 1.23814 1.23814C2.03091 0.445372 3.10613 0 4.22727 0H23.9545C25.0757 0 26.1509 0.445372 26.9437 1.23814C27.7364 2.03091 28.1818 3.10613 28.1818 4.22727V35.7727C28.1818 36.8939 27.7364 37.9691 26.9437 38.7619C26.1509 39.5546 25.0757 40 23.9545 40H4.22727C3.10613 40 2.03091 39.5546 1.23814 38.7619C0.445372 37.9691 0 36.8939 0 35.7727V4.22727ZM4.22727 2.81818H23.9545C24.3283 2.81818 24.6867 2.96664 24.9509 3.23089C25.2152 3.49515 25.3636 3.85356 25.3636 4.22727V35.7727C25.3636 36.1464 25.2152 36.5048 24.9509 36.7691C24.6867 37.0334 24.3283 37.1818 23.9545 37.1818H4.22727C3.85356 37.1818 3.49515 37.0334 3.2309 36.7691C2.96664 36.5048 2.81818 36.1464 2.81818 35.7727V4.22727C2.81818 3.85356 2.96664 3.49515 3.2309 3.23089C3.49515 2.96664 3.85356 2.81818 4.22727 2.81818Z"
+									fill="#22B9B5"
+								/>
+							</svg>
+						</div>
+						<h5>Direct to Patient Notes</h5>
+						<p>
+							The caregiver dashboard provides a secure direct to
+							patient notes communication channel, allowing
+							clinical staff share personalised patients notes
+							based on the comprehensive testing data collected
+							shared seamlessly from Afya Pap Mobile App.
+						</p>
 					</li>
-					<li class="social-link">
-						<a href="https://www.instagram.com/afyapap/">	
-							<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M17.5 10.523C13.6206 10.523 10.4898 13.6538 10.4898 17.5332C10.4898 21.4126 13.6206 24.5435 17.5 24.5435C21.3794 24.5435 24.5103 21.4126 24.5103 17.5332C24.5103 13.6538 21.3794 10.523 17.5 10.523ZM17.5 22.0894C14.9913 22.0894 12.9439 20.042 12.9439 17.5332C12.9439 15.0245 14.9913 12.9771 17.5 12.9771C20.0088 12.9771 22.0562 15.0245 22.0562 17.5332C22.0562 20.042 20.0088 22.0894 17.5 22.0894ZM24.7974 8.60209C23.8916 8.60209 23.1602 9.33354 23.1602 10.2393C23.1602 11.1451 23.8916 11.8765 24.7974 11.8765C25.7032 11.8765 26.4346 11.1485 26.4346 10.2393C26.4349 10.0242 26.3927 9.8112 26.3105 9.61245C26.2284 9.41369 26.1078 9.2331 25.9557 9.08102C25.8036 8.92893 25.623 8.80835 25.4243 8.72617C25.2255 8.64398 25.0125 8.60182 24.7974 8.60209ZM31.1651 17.5332C31.1651 15.6465 31.1822 13.7769 31.0762 11.8936C30.9703 9.70609 30.4712 7.76469 28.8716 6.16508C27.2686 4.56205 25.3306 4.06645 23.1431 3.96049C21.2564 3.85453 19.3868 3.87162 17.5035 3.87162C15.6167 3.87162 13.7471 3.85453 11.8638 3.96049C9.67631 4.06645 7.7349 4.56547 6.13529 6.16508C4.53227 7.76811 4.03666 9.70609 3.9307 11.8936C3.82475 13.7803 3.84184 15.6499 3.84184 17.5332C3.84184 19.4165 3.82475 21.2896 3.9307 23.1729C4.03666 25.3604 4.53568 27.3018 6.13529 28.9014C7.73832 30.5044 9.67631 31 11.8638 31.106C13.7505 31.212 15.6202 31.1949 17.5035 31.1949C19.3902 31.1949 21.2598 31.212 23.1431 31.106C25.3306 31 27.272 30.501 28.8716 28.9014C30.4747 27.2984 30.9703 25.3604 31.0762 23.1729C31.1856 21.2896 31.1651 19.42 31.1651 17.5332ZM28.1573 25.5928C27.9078 26.2149 27.607 26.6797 27.125 27.1582C26.6431 27.6402 26.1817 27.941 25.5596 28.1905C23.7618 28.9048 19.4927 28.7442 17.5 28.7442C15.5074 28.7442 11.2349 28.9048 9.43705 28.1939C8.81498 27.9444 8.35014 27.6436 7.87162 27.1617C7.38969 26.6797 7.08891 26.2183 6.8394 25.5962C6.12846 23.795 6.2891 19.5259 6.2891 17.5332C6.2891 15.5406 6.12846 11.2681 6.8394 9.47025C7.08891 8.84818 7.38969 8.38334 7.87162 7.90482C8.35356 7.42631 8.81498 7.12211 9.43705 6.8726C11.2349 6.16166 15.5074 6.32231 17.5 6.32231C19.4927 6.32231 23.7652 6.16166 25.563 6.8726C26.1851 7.12211 26.6499 7.42289 27.1285 7.90482C27.6104 8.38676 27.9112 8.84818 28.1607 9.47025C28.8716 11.2681 28.711 15.5406 28.711 17.5332C28.711 19.5259 28.8716 23.795 28.1573 25.5928Z" fill="#053E5B"/>
-							</svg>														
-						</a>
-					</li>
-					<li class="social-link">
-						<a href="https://www.youtube.com/channel/UCfkD7iL5xh5OQC04HjrOQAQ">	
-							<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M32.1733 10.1538C31.999 9.50453 31.6572 8.91242 31.1821 8.43674C30.707 7.96107 30.1154 7.61851 29.4663 7.44336C27.0771 6.80078 17.5 6.80078 17.5 6.80078C17.5 6.80078 7.92285 6.80078 5.53369 7.43994C4.88435 7.61453 4.29237 7.95689 3.81721 8.43266C3.34205 8.90842 3.00043 9.50083 2.82666 10.1504C2.1875 12.543 2.1875 17.5332 2.1875 17.5332C2.1875 17.5332 2.1875 22.5234 2.82666 24.9126C3.17871 26.2319 4.21777 27.271 5.53369 27.623C7.92285 28.2656 17.5 28.2656 17.5 28.2656C17.5 28.2656 27.0771 28.2656 29.4663 27.623C30.7856 27.271 31.8213 26.2319 32.1733 24.9126C32.8125 22.5234 32.8125 17.5332 32.8125 17.5332C32.8125 17.5332 32.8125 12.543 32.1733 10.1538ZM14.458 22.1133V12.9531L22.3877 17.499L14.458 22.1133Z" fill="#053E5B"/>
-							</svg>														
-						</a>
-					</li>
-					<li class="social-link">
-						<a href="https://www.linkedin.com/company/10640353?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10640353%2Cidx%3A2-1-2%2CtarId%3A1475575978002%2Ctas%3Abaobab%20circle">		
-							<svg width="35" height="36" viewBox="0 0 35 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-								<path d="M30.0781 3.86133H4.92188C4.31689 3.86133 3.82812 4.3501 3.82812 4.95508V30.1113C3.82812 30.7163 4.31689 31.2051 4.92188 31.2051H30.0781C30.6831 31.2051 31.1719 30.7163 31.1719 30.1113V4.95508C31.1719 4.3501 30.6831 3.86133 30.0781 3.86133ZM11.939 27.1616H7.88184V14.1118H11.939V27.1616ZM9.91211 12.3276C9.44701 12.3276 8.99236 12.1897 8.60565 11.9313C8.21894 11.6729 7.91753 11.3057 7.73955 10.876C7.56156 10.4463 7.515 9.97347 7.60573 9.51731C7.69647 9.06115 7.92043 8.64214 8.2493 8.31327C8.57818 7.9844 8.99718 7.76043 9.45334 7.6697C9.9095 7.57896 10.3823 7.62553 10.812 7.80351C11.2417 7.9815 11.609 8.2829 11.8674 8.66962C12.1258 9.05633 12.2637 9.51098 12.2637 9.97607C12.2603 11.2749 11.2075 12.3276 9.91211 12.3276ZM27.1284 27.1616H23.0747V20.8145C23.0747 19.3003 23.0474 17.3555 20.9658 17.3555C18.8569 17.3555 18.5322 19.0029 18.5322 20.7051V27.1616H14.4819V14.1118H18.3716V15.896H18.4263C18.9663 14.8706 20.2891 13.7871 22.2646 13.7871C26.373 13.7871 27.1284 16.4907 27.1284 20.0044V27.1616Z" fill="#053E5B"/>
-							</svg>													
-						</a>
+					<li class="item platform pink">
+						<div class="icon">
+							<svg
+								width="40"
+								height="40"
+								viewBox="0 0 40 40"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									d="M39.5974 2.52258C39.8624 2.23823 40.0066 1.86214 39.9998 1.47354C39.9929 1.08494 39.8355 0.714166 39.5607 0.43934C39.2858 0.164514 38.9151 0.00709013 38.5265 0.000233694C38.1379 -0.00662274 37.7618 0.137624 37.4774 0.402584L33.4534 4.42658C31.8161 3.26641 29.8211 2.72278 27.8216 2.89188C25.822 3.06098 23.9467 3.93191 22.5274 5.35058L20.3914 7.48858C19.7356 8.14489 19.3672 9.03475 19.3672 9.96258C19.3672 10.8904 19.7356 11.7803 20.3914 12.4366L27.5614 19.6086C27.8864 19.9336 28.2723 20.1915 28.6969 20.3674C29.1216 20.5433 29.5768 20.6338 30.0364 20.6338C30.4961 20.6338 30.9512 20.5433 31.3759 20.3674C31.8006 20.1915 32.1864 19.9336 32.5114 19.6086L34.6474 17.4726C36.0664 16.0536 36.9377 14.1784 37.1072 12.1788C37.2766 10.1792 36.7333 8.18415 35.5734 6.54658L39.5974 2.52258ZM32.4274 7.47258L32.4714 7.51858L32.4774 7.52258L32.4814 7.52858L32.5274 7.57258C33.0384 8.08334 33.4438 8.68977 33.7203 9.35723C33.9969 10.0247 34.1392 10.7401 34.1392 11.4626C34.1392 12.1851 33.9969 12.9005 33.7203 13.5679C33.4438 14.2354 33.0384 14.8418 32.5274 15.3526L30.3914 17.4866C30.345 17.5331 30.2898 17.5701 30.2291 17.5953C30.1683 17.6205 30.1032 17.6335 30.0374 17.6335C29.9716 17.6335 29.9065 17.6205 29.8458 17.5953C29.785 17.5701 29.7299 17.5331 29.6834 17.4866L22.5114 10.3166C22.4649 10.2701 22.4279 10.215 22.4027 10.1542C22.3775 10.0935 22.3645 10.0284 22.3645 9.96258C22.3645 9.89682 22.3775 9.8317 22.4027 9.77095C22.4279 9.71021 22.4649 9.65503 22.5114 9.60858L24.6474 7.47258C25.1582 6.96159 25.7646 6.55623 26.4321 6.27967C27.0995 6.00311 27.8149 5.86076 28.5374 5.86076C29.2599 5.86076 29.9753 6.00311 30.6428 6.27967C31.3102 6.55623 31.9167 6.96159 32.4274 7.47258V7.47258ZM17.5974 18.5226C17.7448 18.3853 17.863 18.2197 17.945 18.0357C18.027 17.8517 18.071 17.653 18.0746 17.4516C18.0782 17.2502 18.0411 17.0502 17.9657 16.8634C17.8902 16.6766 17.7779 16.5069 17.6355 16.3645C17.4931 16.2221 17.3234 16.1098 17.1366 16.0343C16.9498 15.9589 16.7498 15.9218 16.5484 15.9254C16.347 15.929 16.1483 15.973 15.9643 16.055C15.7803 16.137 15.6147 16.2552 15.4774 16.4026L12.0374 19.8426L11.0974 18.9026C10.8162 18.6217 10.4349 18.4639 10.0374 18.4639C9.63992 18.4639 9.25867 18.6217 8.97742 18.9026L5.42742 22.4526C4.00844 23.8716 3.13714 25.7468 2.96767 27.7464C2.7982 29.7459 3.34149 31.741 4.50142 33.3786L0.477417 37.4026C0.330043 37.5399 0.211839 37.7055 0.129855 37.8895C0.0478708 38.0735 0.00378701 38.2721 0.000233444 38.4735C-0.00332013 38.6749 0.0337289 38.875 0.109171 39.0618C0.184613 39.2486 0.296902 39.4182 0.43934 39.5607C0.581777 39.7031 0.751445 39.8154 0.938222 39.8908C1.125 39.9663 1.32506 40.0033 1.52646 39.9998C1.72787 39.9962 1.92649 39.9521 2.11049 39.8701C2.29449 39.7882 2.46009 39.67 2.59742 39.5226L6.62142 35.4986C8.25898 36.6585 10.2541 37.2018 12.2536 37.0323C14.2532 36.8629 16.1284 35.9916 17.5474 34.5726L21.0974 31.0226C21.3783 30.7413 21.5361 30.3601 21.5361 29.9626C21.5361 29.5651 21.3783 29.1838 21.0974 28.9026L20.1574 27.9626L23.5974 24.5226C23.7448 24.3853 23.863 24.2197 23.945 24.0357C24.027 23.8517 24.071 23.653 24.0746 23.4516C24.0782 23.2502 24.0411 23.0502 23.9657 22.8634C23.8902 22.6766 23.7779 22.5069 23.6355 22.3645C23.4931 22.2221 23.3234 22.1098 23.1366 22.0343C22.9498 21.9589 22.7498 21.9218 22.5484 21.9254C22.347 21.929 22.1483 21.973 21.9643 22.055C21.7803 22.137 21.6147 22.2552 21.4774 22.4026L18.0374 25.8426L14.1574 21.9626L17.5974 18.5226V18.5226ZM10.9694 23.0166L10.9774 23.0226L10.9834 23.0306L16.9694 29.0166L16.9774 29.0226L16.9834 29.0306L17.9154 29.9626L15.4274 32.4526C14.9167 32.9636 14.3102 33.3689 13.6428 33.6455C12.9753 33.9221 12.2599 34.0644 11.5374 34.0644C10.8149 34.0644 10.0995 33.9221 9.43206 33.6455C8.7646 33.3689 8.15817 32.9636 7.64742 32.4526L7.54742 32.3526C7.03642 31.8418 6.63106 31.2354 6.3545 30.5679C6.07794 29.9005 5.93559 29.1851 5.93559 28.4626C5.93559 27.7401 6.07794 27.0247 6.3545 26.3572C6.63106 25.6898 7.03642 25.0833 7.54742 24.5726L10.0374 22.0866L10.9694 23.0186V23.0166Z"
+									fill="#FF6A90"
+								/>
+							</svg>
+						</div>
+						<h5>Integrative with HMS</h5>
+						<p>
+							The caregiver module can be integrated easily with
+							any Hospital Management Systems. The module was
+							designed to integrate, share records streams or
+							store data in different data centres of various
+							HMSs.
+						</p>
 					</li>
 				</ul>
-			</div>
-			<ul class="site-map">
-				<li class="site-map-link">
-					<h6><a href="index.html">Home</a></h6>
-					<ul class="sub-links">
-						<li class="sub-link">
-							<a href="https://blog.afyapap.com/">Health Blog</a>
+			</section>
+
+			<section class="section-container app-community">
+				<div
+					class="app-community-image"
+					style="
+						background-image: url('images/caregiver-community.jpeg');
+					"
+				></div>
+				<!-- <img src="images/partner.jpg" alt="" srcset=""> -->
+				<div class="app-community-text">
+					<h3>A health partner you can trust for life</h3>
+					<p>
+						Afya Pap mobile and web application are integrated with
+						various devices for checking your health vitals as
+						advised by your medical practitioners. Afya Pap is an
+						ideal, accurate and reliable monitoring systems that
+						gives you adequate glycaemic control. Afya Pap is linked
+						to various health vitals measuring devices i.e. Blood
+						Glucose Meter and Blood Pressure Meter. The reading are
+						then stored on your phone and you get an action item
+						based the readings.
+					</p>
+				</div>
+			</section>
+
+			<section class="impact-section">
+				<div class="impact-video">
+					<iframe
+						src="https://www.youtube.com/embed/EBAqyREaGc8"
+						frameborder="0"
+						allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen=""
+					></iframe>
+				</div>
+				<div class="impact-text">
+					<h3>
+						Afya Pap has helped countless patients manage their
+						health
+					</h3>
+					<p>
+						Keeping healthy isn't always easy to do alone. Access
+						our Doctor's via a voice call or SMS to receive ongoing
+						support when you need it most.
+					</p>
+					<a href="">Learn more</a>
+				</div>
+			</section>
+
+			<section class="playstore">
+				<div class="playstore-text">
+					<h2>Ready to get started?</h2>
+					<p>Sign up for Caregiver now</p>
+					<button
+						onclick="location.href='https://caregiver.afyapap.com/sign-up/patient'"
+						class="button request-button"
+					>
+						Sign up
+					</button>
+				</div>
+				<div class="playstore-screen caregiver-scren">
+					<img src="./images/web.svg" alt="" />
+				</div>
+				<div class="playstore-overlay-background"></div>
+			</section>
+
+			<footer>
+				<div class="footer-content">
+					<div class="company">
+						<div class="logo">
+							<svg
+								width="260"
+								height="47"
+								viewBox="0 0 260 47"
+								fill="none"
+								xmlns="http://www.w3.org/2000/svg"
+							>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M166.922 25.8479C166.922 20.6302 170.819 17.0664 175.835 17.0664C179.272 17.0664 181.387 18.8488 182.66 20.8852L180.114 22.1834C179.299 20.7836 177.668 19.7145 175.835 19.7145C172.473 19.7145 169.978 22.285 169.978 25.8479C169.978 29.4107 172.472 31.9831 175.835 31.9831C176.701 31.9782 177.551 31.7478 178.302 31.3146C179.052 30.8814 179.676 30.2603 180.114 29.5124L182.66 30.8106C181.362 32.847 179.273 34.6285 175.835 34.6285C170.819 34.6285 166.922 31.0647 166.922 25.8479ZM187.091 34.3226H190.071V17.3464H187.091V34.3226ZM205.681 22.6657C205.681 21.0367 204.459 19.9677 202.777 19.9677H198.702V25.3637H202.777C204.459 25.3637 205.681 24.2956 205.681 22.6657ZM205.426 34.3226L201.656 27.986H198.702V34.3226H195.723V17.3464H203.185C206.547 17.3464 208.737 19.5362 208.737 22.6657C208.737 25.6945 206.75 27.3235 204.713 27.6552L208.863 34.3226H205.426ZM212.989 25.8479C212.989 20.6302 216.886 17.0664 221.902 17.0664C225.34 17.0664 227.455 18.8488 228.727 20.8852L226.181 22.1834C225.366 20.7836 223.736 19.7145 221.902 19.7145C218.54 19.7145 216.045 22.285 216.045 25.8479C216.045 29.4107 218.54 31.9831 221.902 31.9831C222.768 31.9784 223.618 31.7481 224.369 31.3148C225.119 30.8816 225.744 30.2604 226.181 29.5124L228.727 30.8106C227.428 32.847 225.34 34.6285 221.902 34.6285C216.886 34.6285 212.989 31.0647 212.989 25.8479ZM233.158 34.3226V17.3464H236.138V31.7013H243.625V34.3226H233.158ZM248.362 34.3226V17.3464H260V19.9677H251.342V24.3714H259.822V26.9927H251.341V31.7013H260V34.3226H248.362Z"
+									fill="#15486B"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M56.2242 29.0967C56.2242 28.254 55.6116 27.5656 54.5407 27.5656H50.1259V30.6258H54.5407C55.5866 30.6258 56.2242 30.0132 56.2242 29.0957V29.0967ZM55.8934 22.4135C55.8934 21.5977 55.2798 21.0109 54.3873 21.0109H50.1259V23.842H54.3864C55.2799 23.842 55.8924 23.2553 55.8924 22.4135H55.8934ZM45.7361 34.3236V17.3132H55.3824C58.7503 17.3132 60.358 19.5067 60.358 21.6494C60.358 23.7653 59.0571 25.1938 57.4484 25.5504C59.2603 25.8322 60.6897 27.5656 60.6897 29.7083C60.6897 32.1827 59.0312 34.3245 55.6882 34.3245H45.7361V34.3236ZM72.4797 21.6494L70.3111 28.0498H74.6483L72.4797 21.6485V21.6494ZM76.6893 34.3236L75.8485 31.8751H69.1367L68.295 34.3236H63.3194L69.7244 17.3132H75.235L81.6659 34.3236H76.6903H76.6893ZM97.003 25.8313C97.003 23.0511 95.192 20.9102 92.3849 20.9102C89.552 20.9102 87.7401 23.0511 87.7401 25.8313C87.7401 28.5857 89.552 30.7533 92.3849 30.7533C95.1911 30.7533 97.003 28.5857 97.003 25.8313ZM83.2755 25.8313C83.2755 20.6543 87.1783 17.0332 92.3849 17.0332C97.5897 17.0332 101.468 20.6543 101.468 25.8313C101.468 31.0093 97.5897 34.6304 92.3849 34.6304C87.1783 34.6304 83.2745 31.0084 83.2745 25.8313H83.2755ZM116.218 29.0967C116.218 28.254 115.605 27.5656 114.535 27.5656H110.12V30.6258H114.535C115.58 30.6258 116.218 30.0132 116.218 29.0957V29.0967ZM115.887 22.4135C115.887 21.5977 115.275 21.0109 114.381 21.0109H110.12V23.842H114.381C115.275 23.842 115.887 23.2553 115.887 22.4135ZM105.73 34.3236V17.3132H115.376C118.745 17.3132 120.353 19.5067 120.353 21.6494C120.353 23.7653 119.051 25.1938 117.442 25.5504C119.254 25.8322 120.684 27.5656 120.684 29.7083C120.684 32.1827 119.025 34.3245 115.682 34.3245H105.731L105.73 34.3236ZM132.474 21.6494L130.305 28.0498H134.643L132.474 21.6485V21.6494ZM136.684 34.3236L135.843 31.8751H129.132L128.289 34.3236H123.313L129.718 17.3132H135.23L141.661 34.3236H136.684ZM155.441 29.0967C155.441 28.254 154.827 27.5656 153.756 27.5656H149.342V30.6258H153.756C154.802 30.6258 155.441 30.0132 155.441 29.0957V29.0967ZM155.109 22.4135C155.109 21.5977 154.497 21.0109 153.603 21.0109H149.342V23.842H153.603C154.497 23.842 155.109 23.2553 155.109 22.4135ZM144.952 34.3236V17.3132H154.598C157.967 17.3132 159.575 19.5067 159.575 21.6494C159.575 23.7653 158.273 25.1938 156.664 25.5504C158.476 25.8322 159.906 27.5656 159.906 29.7083C159.906 32.1827 158.247 34.3245 154.904 34.3245H144.953L144.952 34.3236Z"
+									fill="#F19B3E"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M23.1466 16.2538C23.3526 14.2008 25.8261 12.7021 25.8982 12.0368C25.9813 11.2792 25.3457 10.4356 24.4605 10.4568C23.689 10.4753 21.3005 13.3452 20.2943 13.0569C19.289 12.7705 19.7196 9.25934 19.2409 8.68647C18.9757 8.36677 18.6477 8.21524 18.0472 8.20508C17.4456 8.21617 17.1176 8.36677 16.8524 8.68555C16.3738 9.26026 16.8044 12.7705 15.7991 13.0569C14.792 13.3452 12.4044 10.4753 11.632 10.4568C10.7477 10.4356 10.113 11.2792 10.1961 12.0368C10.2691 12.7021 12.7407 14.2008 12.9468 16.2538C13.1528 18.3078 8.81384 27.3647 8.81384 42.432C8.81384 43.9076 14.5591 45.1697 18.0472 45.1697C21.5342 45.1697 27.2814 43.9076 27.2814 42.432C27.2814 27.3647 22.9405 18.3069 23.1466 16.2538Z"
+									fill="#15486B"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M18.0472 46.3316C15.6765 46.3381 13.328 45.8746 11.1376 44.9677C8.94723 44.0609 6.95838 42.7287 5.28614 41.0482C3.6053 39.3777 2.27261 37.3903 1.36523 35.2011C0.457862 33.0119 -0.00615164 30.6644 6.65952e-05 28.2946C-0.00639495 25.9247 0.457414 23.5771 1.36463 21.3877C2.27185 19.1983 3.60444 17.2107 5.28522 15.54C5.34589 15.4793 5.41791 15.4312 5.49718 15.3984C5.57645 15.3655 5.66141 15.3486 5.74721 15.3486C5.83301 15.3486 5.91797 15.3655 5.99723 15.3984C6.0765 15.4312 6.14853 15.4793 6.2092 15.54C6.26987 15.6007 6.31799 15.6727 6.35083 15.752C6.38366 15.8312 6.40056 15.9162 6.40056 16.002C6.40056 16.0878 6.38366 16.1727 6.35083 16.252C6.31799 16.3313 6.26987 16.4033 6.2092 16.464C-0.316858 22.9873 -0.316858 33.601 6.2092 40.1252C7.76024 41.6841 9.60506 42.9199 11.6369 43.7612C13.6687 44.6024 15.8472 45.0323 18.0463 45.026C22.5183 45.026 26.7206 43.2861 29.8824 40.1252C36.4094 33.601 36.4094 22.9873 29.8824 16.464C29.8218 16.4033 29.7736 16.3313 29.7408 16.252C29.708 16.1727 29.6911 16.0878 29.6911 16.002C29.6911 15.9162 29.708 15.8312 29.7408 15.752C29.7736 15.6727 29.8218 15.6007 29.8824 15.54C29.9431 15.4793 30.0151 15.4312 30.0944 15.3984C30.1737 15.3655 30.2586 15.3486 30.3444 15.3486C30.4302 15.3486 30.5152 15.3655 30.5944 15.3984C30.6737 15.4312 30.7457 15.4793 30.8064 15.54C32.4874 17.2105 33.8202 19.1981 34.7274 21.3875C35.6347 23.577 36.0983 25.9247 36.0916 28.2946C36.0984 30.6644 35.6347 33.012 34.7275 35.2012C33.8202 37.3905 32.4875 39.3779 30.8064 41.0482C29.1343 42.7286 27.1456 44.0607 24.9554 44.9676C22.7651 45.8744 20.4168 46.338 18.0463 46.3316"
+									fill="#15486B"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M18.8965 7.0873C18.8965 7.0873 15.2792 7.55113 13.337 5.60801C11.3966 3.66488 11.8669 0.048434 11.8669 0.048434C11.8669 0.048434 15.4852 -0.415403 17.4265 1.52772C19.3668 3.4727 18.8965 7.0873 18.8965 7.0873Z"
+									fill="#F19B3E"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M24.2288 0.0592059C24.2288 0.0592059 24.6926 3.67565 22.7486 5.61601C20.8045 7.55636 17.1862 7.08513 17.1862 7.08513C17.1862 7.08513 16.7224 3.46961 18.6664 1.52925C20.6123 -0.411099 24.2288 0.0601299 24.2288 0.0601299"
+									fill="#1F598A"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M10.2084 9.68985C10.2084 9.68985 8.75032 11.779 6.83214 11.8723C4.91397 11.9638 3.26282 10.0234 3.26282 10.0234C3.26282 10.0234 4.72085 7.93337 6.63903 7.84005C8.55721 7.74857 10.2084 9.68985 10.2084 9.68985Z"
+									fill="#F19B3E"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M9.07065 3.63184C9.07065 3.63184 11.1616 5.08987 11.2549 7.0062C11.3464 8.92346 9.40421 10.5746 9.40421 10.5746C9.40421 10.5746 7.31417 9.11749 7.22085 7.20024C7.12845 5.28298 9.07065 3.63276 9.07065 3.63276"
+									fill="#1F598A"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M26.8141 10.6587C26.8141 10.6587 24.7222 9.20158 24.6298 7.28433C24.5374 5.36707 26.4796 3.71777 26.4796 3.71777C26.4796 3.71777 28.5705 5.17396 28.6629 7.09122C28.7553 9.00847 26.8131 10.6587 26.8131 10.6587"
+									fill="#F19B3E"
+								/>
+								<path
+									fill-rule="evenodd"
+									clip-rule="evenodd"
+									d="M32.8742 9.522C32.8742 9.522 31.4153 11.6111 29.498 11.7044C27.5799 11.7968 25.9287 9.85556 25.9287 9.85556C25.9287 9.85556 27.3858 7.76552 29.304 7.67312C31.2231 7.58072 32.8742 9.52108 32.8742 9.52108"
+									fill="#1F598A"
+								/>
+							</svg>
+						</div>
+						<ul class="footer-nav">
+							<li>
+								<span>Want to join Caregiver? </span
+								><a
+									href="https://caregiver.afyapap.com/sign-up/patient"
+									>Sign Up</a
+								>
+							</li>
+							<li>
+								<span>Already a member? </span
+								><a href="https://caregiver.afyapap.com/"
+									>Sign In</a
+								>
+							</li>
+						</ul>
+						<ul class="social-links">
+							<li class="social-link">
+								<a href="https://www.facebook.com/AfyaPap/">
+									<svg
+										width="35"
+										height="36"
+										viewBox="0 0 35 36"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M30.0781 3.86133H4.92188C4.31689 3.86133 3.82812 4.3501 3.82812 4.95508V30.1113C3.82812 30.7163 4.31689 31.2051 4.92188 31.2051H30.0781C30.6831 31.2051 31.1719 30.7163 31.1719 30.1113V4.95508C31.1719 4.3501 30.6831 3.86133 30.0781 3.86133ZM26.9199 11.8423H24.7358C23.0234 11.8423 22.6919 12.6558 22.6919 13.8521V16.4873H26.7798L26.2466 20.6128H22.6919V31.2051H18.4297V20.6162H14.8647V16.4873H18.4297V13.4453C18.4297 9.91455 20.5864 7.99023 23.7378 7.99023C25.2485 7.99023 26.5439 8.10303 26.9233 8.1543V11.8423H26.9199Z"
+											fill="#053E5B"
+										/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-link">
+								<a href="https://twitter.com/Afya_Pap">
+									<svg
+										width="35"
+										height="36"
+										viewBox="0 0 35 36"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M31.7187 8.72511C30.6728 9.17628 29.5347 9.50099 28.3623 9.62746C29.5795 8.90434 30.491 7.76193 30.9258 6.41456C29.7836 7.09402 28.5324 7.57047 27.2275 7.82277C26.6822 7.23975 26.0226 6.7753 25.2899 6.45834C24.5572 6.14138 23.7671 5.97872 22.9687 5.98048C19.7388 5.98048 17.1411 8.59865 17.1411 11.8115C17.1411 12.2627 17.1958 12.7139 17.2847 13.148C12.4482 12.895 8.13477 10.5845 5.26709 7.04689C4.74457 7.93937 4.47075 8.95557 4.47412 9.98976C4.47412 12.0132 5.50293 13.7974 7.07178 14.8467C6.14723 14.8103 5.24434 14.5562 4.43652 14.105V14.1768C4.43652 17.0103 6.43945 19.3584 9.10889 19.8985C8.60767 20.0286 8.09206 20.0952 7.57422 20.0967C7.19482 20.0967 6.83594 20.0591 6.47363 20.0078C7.21191 22.3184 9.36182 23.9966 11.9219 24.0513C9.91894 25.6201 7.41016 26.543 4.68604 26.543C4.19727 26.543 3.74609 26.5259 3.27783 26.4712C5.86182 28.1289 8.92773 29.086 12.2295 29.086C22.9482 29.086 28.8135 20.2061 28.8135 12.4985C28.8135 12.2456 28.8135 11.9927 28.7964 11.7398C29.9311 10.9092 30.9258 9.88039 31.7187 8.72511Z"
+											fill="#053E5B"
+										/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-link">
+								<a href="https://www.instagram.com/afyapap/">
+									<svg
+										width="35"
+										height="36"
+										viewBox="0 0 35 36"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M17.5 10.523C13.6206 10.523 10.4898 13.6538 10.4898 17.5332C10.4898 21.4126 13.6206 24.5435 17.5 24.5435C21.3794 24.5435 24.5103 21.4126 24.5103 17.5332C24.5103 13.6538 21.3794 10.523 17.5 10.523ZM17.5 22.0894C14.9913 22.0894 12.9439 20.042 12.9439 17.5332C12.9439 15.0245 14.9913 12.9771 17.5 12.9771C20.0088 12.9771 22.0562 15.0245 22.0562 17.5332C22.0562 20.042 20.0088 22.0894 17.5 22.0894ZM24.7974 8.60209C23.8916 8.60209 23.1602 9.33354 23.1602 10.2393C23.1602 11.1451 23.8916 11.8765 24.7974 11.8765C25.7032 11.8765 26.4346 11.1485 26.4346 10.2393C26.4349 10.0242 26.3927 9.8112 26.3105 9.61245C26.2284 9.41369 26.1078 9.2331 25.9557 9.08102C25.8036 8.92893 25.623 8.80835 25.4243 8.72617C25.2255 8.64398 25.0125 8.60182 24.7974 8.60209ZM31.1651 17.5332C31.1651 15.6465 31.1822 13.7769 31.0762 11.8936C30.9703 9.70609 30.4712 7.76469 28.8716 6.16508C27.2686 4.56205 25.3306 4.06645 23.1431 3.96049C21.2564 3.85453 19.3868 3.87162 17.5035 3.87162C15.6167 3.87162 13.7471 3.85453 11.8638 3.96049C9.67631 4.06645 7.7349 4.56547 6.13529 6.16508C4.53227 7.76811 4.03666 9.70609 3.9307 11.8936C3.82475 13.7803 3.84184 15.6499 3.84184 17.5332C3.84184 19.4165 3.82475 21.2896 3.9307 23.1729C4.03666 25.3604 4.53568 27.3018 6.13529 28.9014C7.73832 30.5044 9.67631 31 11.8638 31.106C13.7505 31.212 15.6202 31.1949 17.5035 31.1949C19.3902 31.1949 21.2598 31.212 23.1431 31.106C25.3306 31 27.272 30.501 28.8716 28.9014C30.4747 27.2984 30.9703 25.3604 31.0762 23.1729C31.1856 21.2896 31.1651 19.42 31.1651 17.5332ZM28.1573 25.5928C27.9078 26.2149 27.607 26.6797 27.125 27.1582C26.6431 27.6402 26.1817 27.941 25.5596 28.1905C23.7618 28.9048 19.4927 28.7442 17.5 28.7442C15.5074 28.7442 11.2349 28.9048 9.43705 28.1939C8.81498 27.9444 8.35014 27.6436 7.87162 27.1617C7.38969 26.6797 7.08891 26.2183 6.8394 25.5962C6.12846 23.795 6.2891 19.5259 6.2891 17.5332C6.2891 15.5406 6.12846 11.2681 6.8394 9.47025C7.08891 8.84818 7.38969 8.38334 7.87162 7.90482C8.35356 7.42631 8.81498 7.12211 9.43705 6.8726C11.2349 6.16166 15.5074 6.32231 17.5 6.32231C19.4927 6.32231 23.7652 6.16166 25.563 6.8726C26.1851 7.12211 26.6499 7.42289 27.1285 7.90482C27.6104 8.38676 27.9112 8.84818 28.1607 9.47025C28.8716 11.2681 28.711 15.5406 28.711 17.5332C28.711 19.5259 28.8716 23.795 28.1573 25.5928Z"
+											fill="#053E5B"
+										/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-link">
+								<a
+									href="https://www.youtube.com/channel/UCfkD7iL5xh5OQC04HjrOQAQ"
+								>
+									<svg
+										width="35"
+										height="36"
+										viewBox="0 0 35 36"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M32.1733 10.1538C31.999 9.50453 31.6572 8.91242 31.1821 8.43674C30.707 7.96107 30.1154 7.61851 29.4663 7.44336C27.0771 6.80078 17.5 6.80078 17.5 6.80078C17.5 6.80078 7.92285 6.80078 5.53369 7.43994C4.88435 7.61453 4.29237 7.95689 3.81721 8.43266C3.34205 8.90842 3.00043 9.50083 2.82666 10.1504C2.1875 12.543 2.1875 17.5332 2.1875 17.5332C2.1875 17.5332 2.1875 22.5234 2.82666 24.9126C3.17871 26.2319 4.21777 27.271 5.53369 27.623C7.92285 28.2656 17.5 28.2656 17.5 28.2656C17.5 28.2656 27.0771 28.2656 29.4663 27.623C30.7856 27.271 31.8213 26.2319 32.1733 24.9126C32.8125 22.5234 32.8125 17.5332 32.8125 17.5332C32.8125 17.5332 32.8125 12.543 32.1733 10.1538ZM14.458 22.1133V12.9531L22.3877 17.499L14.458 22.1133Z"
+											fill="#053E5B"
+										/>
+									</svg>
+								</a>
+							</li>
+							<li class="social-link">
+								<a
+									href="https://www.linkedin.com/company/10640353?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A10640353%2Cidx%3A2-1-2%2CtarId%3A1475575978002%2Ctas%3Abaobab%20circle"
+								>
+									<svg
+										width="35"
+										height="36"
+										viewBox="0 0 35 36"
+										fill="none"
+										xmlns="http://www.w3.org/2000/svg"
+									>
+										<path
+											d="M30.0781 3.86133H4.92188C4.31689 3.86133 3.82812 4.3501 3.82812 4.95508V30.1113C3.82812 30.7163 4.31689 31.2051 4.92188 31.2051H30.0781C30.6831 31.2051 31.1719 30.7163 31.1719 30.1113V4.95508C31.1719 4.3501 30.6831 3.86133 30.0781 3.86133ZM11.939 27.1616H7.88184V14.1118H11.939V27.1616ZM9.91211 12.3276C9.44701 12.3276 8.99236 12.1897 8.60565 11.9313C8.21894 11.6729 7.91753 11.3057 7.73955 10.876C7.56156 10.4463 7.515 9.97347 7.60573 9.51731C7.69647 9.06115 7.92043 8.64214 8.2493 8.31327C8.57818 7.9844 8.99718 7.76043 9.45334 7.6697C9.9095 7.57896 10.3823 7.62553 10.812 7.80351C11.2417 7.9815 11.609 8.2829 11.8674 8.66962C12.1258 9.05633 12.2637 9.51098 12.2637 9.97607C12.2603 11.2749 11.2075 12.3276 9.91211 12.3276ZM27.1284 27.1616H23.0747V20.8145C23.0747 19.3003 23.0474 17.3555 20.9658 17.3555C18.8569 17.3555 18.5322 19.0029 18.5322 20.7051V27.1616H14.4819V14.1118H18.3716V15.896H18.4263C18.9663 14.8706 20.2891 13.7871 22.2646 13.7871C26.373 13.7871 27.1284 16.4907 27.1284 20.0044V27.1616Z"
+											fill="#053E5B"
+										/>
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="site-map">
+						<li class="site-map-link">
+							<h6><a href="index.html">Home</a></h6>
+							<ul class="sub-links">
+								<li class="sub-link">
+									<a href="https://blog.afyapap.com/"
+										>Health Blog</a
+									>
+								</li>
+								<li class="sub-link">
+									<a href="how-to-videos.html"
+										>How To Videos</a
+									>
+								</li>
+								<li class="sub-link">
+									<a href="testimonials.html">Testimonials</a>
+								</li>
+							</ul>
 						</li>
-						<li class="sub-link">
-							<a href="how-to-videos.html">How To Videos</a>
+						<li class="site-map-link">
+							<h6><a href="">Products</a></h6>
+							<ul class="sub-links">
+								<li class="sub-link">
+									<a href="afya-pap.html">Afya Pap</a>
+								</li>
+								<li class="sub-link">
+									<a href="caregiver.html">Caregiver</a>
+								</li>
+								<li class="sub-link">
+									<a href="devices.html">Devices</a>
+								</li>
+								<li class="sub-link">
+									<a href="afya-pap-medic.html">Services</a>
+								</li>
+							</ul>
 						</li>
-						<li class="sub-link">
-							<a href="testimonials.html">Testimonials</a>
-						</li>
-						<li class="sub-link">
-							<a href="faqs.html">FAQs</a>
+						<li class="site-map-link">
+							<h6><a href="">Company</a></h6>
+							<ul class="sub-links">
+								<li class="sub-link">
+									<a href="about.html">About us</a>
+								</li>
+								<li class="sub-link">
+									<a href="contact.html">Contact us</a>
+								</li>
+								<li class="sub-link">
+									<a href="terms.html">Terms of use</a>
+								</li>
+								<li class="sub-link">
+									<a href="privacy.html">Privacy Policy</a>
+								</li>
+							</ul>
 						</li>
 					</ul>
-				</li>
-				<li class="site-map-link">
-					<h6><a href="">Products</a></h6>
-					<ul class="sub-links">
-						<li class="sub-link">
-							<a href="afya-pap.html">Afya Pap</a>
-						</li>
-						<li class="sub-link">
-							<a href="caregiver.html">Caregiver</a>
-						</li>
-						<li class="sub-link">
-							<a href="devices.html">Devices</a>
-						</li>
-						<li class="sub-link">
-							<a href="afya-pap-medic.html">Services</a>
-						</li>
-					</ul>
-				</li>
-				<li class="site-map-link">
-					<h6><a href="">Company</a></h6>
-					<ul class="sub-links">
-						<li class="sub-link">
-							<a href="about.html">About us</a>
-						</li>
-						<li class="sub-link">
-							<a href="contact.html">Contact us</a>
-						</li>
-						<li class="sub-link">
-							<a href="terms.html">Terms of use</a>
-						</li>
-						<li class="sub-link">
-							<a href="privacy.html">Privacy Policy</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
+				</div>
+				<div class="draw-line"></div>
+				<p class="copyright">
+					All rights reserved. © Baobab Circle 2021
+				</p>
+			</footer>
 		</div>
-		<div class="draw-line"></div>
-		<p class="copyright">All rights reserved. © Baobab Circle 2021</p>
-	</footer>
-	</div>
-  <script src="scripts/main.js"></script>
-  </body>
+		<script src="scripts/main.js"></script>
+	</body>
 </html>
