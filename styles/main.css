@@ -343,7 +343,7 @@ ul.external-link .dropdown-nav a {
 @media screen and (min-width: 1024px) {
 	.topbar .links {
 		display: grid;
-		grid-template-columns: 1fr 180px;
+		grid-template-columns: 1fr 100px;
 	}
 	.topbar {
 		padding: 0px calc((100vw - 985px) / 2);
@@ -354,13 +354,15 @@ ul.external-link .dropdown-nav a {
 	.topbar .logo-container svg {
 		left: 0px;
 		width: 200px;
+		height: 3rem;
 		margin: auto 0px;
+		margin: 0.9rem auto 0px;
 	}
 	ul.nav-links {
 		display: grid;
-		grid-template-columns: repeat(4, 100px) 1fr;
+		grid-template-columns: repeat(5, 100px) 1fr;
 		grid-gap: 20px;
-		padding-left: 20px;
+		padding-left: 50px;
 		margin: auto 0px;
 		padding-bottom: 5px;
 	}
@@ -1093,7 +1095,7 @@ li.info-thumb a {
 .info-thumb-label {
 	height: 80px;
 	background: #ffffff;
-	border-radius: 8px;
+	border-radius: 0 0 8px 8px;
 	padding: 0.8rem 43px;
 	box-sizing: border-box;
 	z-index: 1;
@@ -1127,7 +1129,7 @@ li.info-thumb a {
 	color: #ffffff;
 }
 .info-thumb-video {
-	border-radius: 8px;
+	border-radius: 8px 8px 0px 0px;
 	overflow: hidden;
 }
 .info-thumb-video iframe {
