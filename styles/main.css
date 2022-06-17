@@ -256,10 +256,10 @@ ul {
 	}
 }
 .topbar .logo-container svg {
-	height: 1rem;
+	height: 3rem;
 	width: 12.118em;
 	left: 4.941rem;
-	top: 1.176;
+	/* top: 1.176; */
 	border-radius: 0px;
 	margin: auto;
 }
