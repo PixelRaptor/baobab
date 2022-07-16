@@ -459,6 +459,9 @@ section.header {
 	text-align: center;
 	line-height: 159.8%;
 }
+.partner-passage {
+	margin-bottom: 1.5rem;
+}
 .header-text p {
 	width: 100%;
 	font-size: 17px;
