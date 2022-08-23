@@ -53,7 +53,6 @@ h1 {
 	font-weight: bold;
 	font-size: 2.353rem;
 	line-height: 1.25em;
-	text-transform: capitalize;
 	color: var(--navy-color);
 }
 h2 {
@@ -187,12 +186,12 @@ ul {
 		display: none;
 	}
 	.main-content {
-		margin-top: 91px;
+		margin-top: 58px;
 	}
 	h1 {
 		font-weight: 800;
-		font-size: 70px;
-		line-height: 100px;
+		font-size: 66px;
+		line-height: 90px;
 	}
 	h2 {
 		font-size: 60px;
@@ -242,7 +241,8 @@ ul {
 	height: 3.412rem;
 	left: 0px;
 	top: 0px;
-	background: #fef5ed;
+	background: rgb(255 216 181 / 45%);
+	backdrop-filter: blur(8px);
 }
 .logo-container {
 	width: 100%;
@@ -347,28 +347,28 @@ ul.external-link .dropdown-nav a {
 	}
 	.topbar {
 		padding: 0px calc((100vw - 985px) / 2);
-		height: 91px;
+		height: 58px;
 		display: grid;
 		grid-template-columns: 200px 1fr;
 	}
 	.topbar .logo-container svg {
 		left: 0px;
 		width: 200px;
-		height: 3rem;
+		height: 2rem;
 		margin: auto 0px;
-		margin: 0.9rem auto 0px;
+		margin: 0.7rem auto 0px;
 	}
 	ul.nav-links {
 		display: grid;
-		grid-template-columns: repeat(5, 100px) 1fr;
-		grid-gap: 20px;
-		padding-left: 50px;
+		grid-template-columns: repeat(5, auto) 1fr;
+		grid-gap: 40px;
+		padding-left: 163px;
 		margin: auto 0px;
 		padding-bottom: 5px;
 	}
 	.topbar .links a {
-		font-size: 17px;
-		text-underline-offset: 10px;
+		font-size: 15px;
+		text-underline-offset: 20px;
 		line-height: 2.7;
 	}
 
@@ -504,10 +504,9 @@ button.button.playstore-button span {
 }
 button.button.request-button {
 	width: 10.5em;
-	height: 3.6rem;
 	margin: auto;
 	background-color: var(--white-color);
-	padding: 0.6rem 0.706rem;
+	line-height: 3.4;
 	font-size: 1.059rem;
 	font-weight: 700;
 	color: var(--navy-color);
@@ -548,7 +547,7 @@ button.button.request-button {
 	}
 	.call-to-action,
 	.header-text {
-		padding-top: 100px;
+		padding-top: 80px;
 	}
 	.call-to-action p {
 		font-size: 25px;
