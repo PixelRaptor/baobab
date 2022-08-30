@@ -933,7 +933,7 @@ ul.awards-list {
 }
 
 li.award-item {
-	height: 230px;
+	height: 300px;
 	background: linear-gradient(
 		118.03deg,
 		rgba(21, 72, 107, 0.05) 0%,
@@ -1066,7 +1066,7 @@ ul.info-thumbs-list {
 }
 
 li.info-thumb {
-	height: 298px;
+	height: 360px;
 	background: linear-gradient(
 		86.42deg,
 		rgba(21, 72, 107, 0.15) 5.89%,
@@ -1150,7 +1150,7 @@ li.info-thumb a {
 	}
 	ul.info-thumbs-list {
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr;
 	}
 	@media screen and (max-width: 1024px) {
 		section.info {
