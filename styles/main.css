@@ -90,6 +90,7 @@ h5 {
 	font-size: 20px;
 	line-height: 27px;
 	padding: 5px 0px;
+	color: var(--navy-color);
 }
 
 h6 {
@@ -214,7 +215,7 @@ ul {
 			width: 200px;
 			text-align: left;
 			padding: 0px 16px 5px;
-			top: 91px;
+			top: 58px;
 			border-radius: 0px 0px var(--border-radius) var(--border-radius);
 			overflow: hidden;
 			box-shadow: 4px 6px 10px 0px rgb(0 0 0 / 25%);
@@ -372,6 +373,9 @@ ul.external-link .dropdown-nav a {
 		line-height: 2.7;
 	}
 
+	.dropdown-nav a:hover {
+		text-underline-offset: 10px;
+	}
 	#products > a {
 		display: block;
 	}
@@ -411,6 +415,7 @@ ul.external-link .dropdown-nav a {
 	#products span,
 	#signup span {
 		display: grid;
+		padding-left: 5px;
 	}
 
 	#products svg,
@@ -422,16 +427,16 @@ ul.external-link .dropdown-nav a {
 }
 @media screen and (min-width: 600px) and (max-width: 1024px) {
 	.topbar {
-		height: 5.412rem;
+		height: 3.412rem;
 	}
 	.topbar .logo-container svg {
 		height: 2rem;
-		width: 16.118em;
+		width: 13em;
 		left: 4.941rem;
 	}
 	.humburger-menu-container {
 		position: fixed;
-		top: 1.859rem;
+		top: 1rem;
 		right: 1.588rem;
 	}
 }
@@ -709,7 +714,7 @@ ul.thumbs .label p {
 		padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
 	}
 	section.intro p {
-		width: 60%;
+		width: 70%;
 		margin: auto;
 	}
 }
@@ -1299,7 +1304,7 @@ footer {
 		rgba(21, 72, 107, 0.05) 0%,
 		rgba(242, 153, 74, 0.05) 101.55%
 	);
-	font-size: 16px;
+	font-size: 15px;
 }
 
 .footer-content .logo {
@@ -1346,7 +1351,7 @@ ul.sub-links {
 ul.sub-links a {
 	font-style: normal;
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 15px;
 	line-height: 32px;
 	color: #053e5b;
 	text-decoration: none;
@@ -2382,3 +2387,38 @@ ul.video-categories-controls {
 	}
 }
 /* END HOW TO PAGE PAGE */
+
+/* START PRIVACY POLICY PAGE */
+.privacy p {
+	text-align: left;
+}
+.privacy h4,
+.privacy h5 {
+	text-align: left;
+	padding-top: 1rem;
+}
+.table-of-contents {
+	line-height: 1.5;
+}
+.disc-list {
+	list-style: disc;
+	margin: 0rem 0 1rem 1rem;
+}
+.circle-list {
+	list-style: revert;
+	margin-left: 1rem;
+}
+.square-list {
+	list-style: square;
+	margin-left: 1rem;
+}
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	text-align: left;
+	padding: 10px;
+	vertical-align: top;
+}
+/* END PRIVACY POLICY PAGE */
