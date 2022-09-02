@@ -235,6 +235,7 @@ ul {
 	}
 }
 /* START NAV BAR */
+
 .topbar {
 	position: fixed;
 	z-index: 10;
@@ -242,9 +243,15 @@ ul {
 	height: 3.412rem;
 	left: 0px;
 	top: 0px;
-	background: rgb(255 216 181 / 45%);
-	backdrop-filter: blur(8px);
+	background: #ffeede;
 }
+@supports (backdrop-filter: blur(8px)) {
+	.topbar {
+		background: rgb(255 216 181 / 45%);
+		backdrop-filter: blur(8px);
+	}
+}
+
 .logo-container {
 	width: 100%;
 	height: 100%;
