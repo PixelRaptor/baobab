@@ -2396,11 +2396,12 @@ ul.video-categories-controls {
 /* END HOW TO PAGE PAGE */
 
 /* START PRIVACY POLICY PAGE */
-.privacy p {
+
+.privacy-container p {
 	text-align: left;
 }
-.privacy h4,
-.privacy h5 {
+.privacy-container h4,
+.privacy-container h5 {
 	text-align: left;
 	padding-top: 1rem;
 }
@@ -2428,4 +2429,31 @@ td {
 	padding: 10px;
 	vertical-align: top;
 }
+.privacy {
+	padding: 0px 0.941rem 1rem;
+}
+@media screen and (min-width: 600px) {
+	.privacy {
+		padding: 0rem calc((100vw - 985px) / 2) 2rem;
+	}
+}
 /* END PRIVACY POLICY PAGE */
+
+/* START TERMS PAGE */
+.terms {
+	padding: 0px 0.941rem 1rem;
+}
+.terms-container p {
+	text-align: left;
+}
+.terms-container h4,
+.terms-container h5 {
+	text-align: left;
+	padding-top: 1rem;
+}
+@media screen and (min-width: 600px) {
+	.terms {
+		padding: 0rem calc((100vw - 985px) / 2) 2rem;
+	}
+}
+/* END TERMS PAGE */
