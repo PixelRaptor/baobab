@@ -1974,7 +1974,7 @@ section.section-container.none-services {
 
 /* START TEAM PAGE */
 section.section-container.team {
-	padding: 50px 0.941rem 1rem;
+	padding: 1rem 0.941rem 1rem;
 }
 ul.team-list {
 	padding-top: 15px;
@@ -2045,7 +2045,7 @@ li.team-member {
 
 @media screen and (min-width: 600px) {
 	section.section-container.team {
-		padding: 4.706rem calc((100vw - 985px) / 2) 3rem;
+		padding: 4.706rem calc((100vw - 985px) / 2) 0rem;
 	}
 	ul.team-list {
 		display: grid;
@@ -2429,12 +2429,12 @@ td {
 	padding: 10px;
 	vertical-align: top;
 }
-.privacy {
-	padding: 0px 0.941rem 1rem;
+.privacy-container {
+	/* padding: 0px 0.941rem 1rem; */
 }
 @media screen and (min-width: 600px) {
-	.privacy {
-		padding: 0rem calc((100vw - 985px) / 2) 2rem;
+	.privacy-container {
+		/* padding: 0rem calc((100vw - 985px) / 2) 2rem; */
 	}
 }
 /* END PRIVACY POLICY PAGE */
