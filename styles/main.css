@@ -1313,7 +1313,9 @@ footer {
 	);
 	font-size: 15px;
 }
-
+.policy-footer-margin {
+	margin-top: 4rem;
+}
 .footer-content .logo {
 	display: grid;
 }
@@ -2045,7 +2047,7 @@ li.team-member {
 
 @media screen and (min-width: 600px) {
 	section.section-container.team {
-		padding: 4.706rem calc((100vw - 985px) / 2) 0rem;
+		padding: 1.706rem calc((100vw - 985px) / 2) 0rem;
 	}
 	ul.team-list {
 		display: grid;
